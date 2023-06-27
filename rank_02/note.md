@@ -17,7 +17,8 @@ There is no Norminette in this exam.
 :question: Any of the 12 Functions/Programs Below:
 ```
 - ~~first_word~~
-- <s>fizzbuzz</s>
+- <strike>fizzbuzz</strike>
+<strike>fizzbuzz</strike>
 - ft_strcpy
 - ft_strlen
 - ft_swap
