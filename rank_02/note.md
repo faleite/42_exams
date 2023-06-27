@@ -16,18 +16,18 @@ There is no Norminette in this exam.
 ### Question 1 is from Level 1
 :question: Any of the 12 Functions/Programs Below:
 ```
-  - <s>first_word</s>
-  - fizzbuzz
-  - ft_strcpy
-  - ft_strlen
-  - ft_swap
-  - putstr
-  - repeat_alpha
-  - rev_print
-  - rot_13
-  - rotone
-  - search_and_replace
-  - ulstr
+- ~~first_word~~
+- <s>fizzbuzz</s>
+- ft_strcpy
+- ft_strlen
+- ft_swap
+- putstr
+- repeat_alpha
+- rev_print
+- rot_13
+- rotone
+- search_and_replace
+- ulstr
 ```
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
