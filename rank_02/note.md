@@ -16,7 +16,7 @@ There is no Norminette in this exam.
 ### Question 1 is from Level 1
 :question: Any of the 12 Functions/Programs Below:
 ```
-  - first_word
+  - ~first_word~
   - fizzbuzz
   - ft_strcpy
   - ft_strlen
