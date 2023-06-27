@@ -18,13 +18,13 @@ There is no Norminette in this exam.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |~~first_word~~ |done 
+01  |first_word|done 
 02  |fizzbuzz |done
-03  |ft_strcpy |done
-04  |ft_strlen |done
-05  |ft_swap |
-06  |putstr |
-07  |repeat_alpha |
+03  |ft_strcpy |ok
+04  |ft_strlen |ok
+05  |ft_swap |done
+06  |putstr | ok
+07  |repeat_alpha |done
 08  |rev_print |
 09  |rot_13 |
 10  |rotone |
