@@ -30,10 +30,9 @@ $>
 
 #include <unistd.h>
 
-/* O numero de parametros tem que ser 1 ou seja argc == 2 (arq + param)*/
-
-/* Enquanto o caracter do param for == space ou tab incremente "i". */
-
-/* Enquanto o caracter do param for != space ou tab, escreva e incremente "i". */
-
-/* Escreva a quebra de linha*/
+/* 
+- O numero de parametros tem que ser 1 ou seja argc == 2 (arq + param)
+- Enquanto o caracter do param for == space ou tab incremente "i".
+- Enquanto o caracter do param for != space ou tab, escreva e incremente "i".
+- Escreva a quebra de linha
+*/

@@ -16,20 +16,20 @@ There is no Norminette in this exam.
 ### Question 1 is from Level 1
 :question: Any of the 12 Functions/Programs Below:
 
-Question | Status
----------|:-----:
-~~first_word~~ | OK 
-fizzbuzz |
-ft_strcpy |
-ft_strlen |
-ft_swap |
-putstr |
-repeat_alpha |
-rev_print |
-rot_13 |
-rotone |
-search_and_replace |
-ulstr |
+Nr. |Question | Obs.
+----|---------|:-----:
+01  |~~first_word~~ |done 
+02  |fizzbuzz |done
+03  |ft_strcpy |done
+04  |ft_strlen |done
+05  |ft_swap |
+06  |putstr |
+07  |repeat_alpha |
+08  |rev_print |
+09  |rot_13 |
+10  |rotone |
+11  |search_and_replace |
+12  |ulstr |
 
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
