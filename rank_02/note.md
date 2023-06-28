@@ -25,7 +25,7 @@ Nr. |Question | Obs.
 05  |ft_swap |done
 06  |putstr | ok
 07  |repeat_alpha |done
-08  |rev_print |
+08  |rev_print | ok
 09  |rot_13 |
 10  |rotone |
 11  |search_and_replace |
@@ -33,50 +33,54 @@ Nr. |Question | Obs.
 
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
-```
-  - alpha_mirror
-  - camel_to_snake
-  - do_op
-  - ft_atoi
-  - ft_strcmp
-  - ft_strcspn
-  - ft_strdup
-  - ft_strpbrk
-  - ft_strrev
-  - ft_strspn
-  - inter
-  - is_power_of_2
-  - last_word
-  - max
-  - print_bits
-  - reverse_bits
-  - snake_to_camel
-  - swap_bits
-  - union
-  - wdmatch 
-```
+
+Nr. |Question | Obs.
+----|---------|:-----:
+01  |alpha_mirror   |
+02  |camel_to_snake |
+03  |do_op          |
+04  |ft_atoi        |
+05  |ft_strcmp      |
+06  |ft_strcspn     |
+07  |ft_strdup      |
+08  |ft_strpbrk     |
+09  |ft_strrev      |
+10  |ft_strspn      |
+11  |inter          |
+12  |is_power_of_2  |
+13  |last_word      |
+14  |max            |
+15  |print_bits     |
+16  |reverse_bits   |
+17  |snake_to_camel |
+18  |swap_bits      |
+19  |union          |
+20  |wdmatch        |
+
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
-```
-  - add_prime_sum
-  - epur_str
-  - expand_str
-  - ft_atoi_base
-  - ft_list_size
-  - ft_range
-  - ft_rrange
-  - hidenp
-  - lcm
-  - paramsum
-  - pgcd
-  - print_hex
-  - rstr_capitalizer
-  - str_capitalizer
-  - tab_mult 
-```
+
+Nr. |Question | Obs.
+----|---------|:-----:
+01  |add_prime_sum|
+02  |epur_str     |
+03  |expand_str   |
+04  |ft_atoi_base |
+05  |ft_list_size |
+06  |ft_range     |
+07  |ft_rrange    |
+08  |hidenp       |
+09  |lcm          |
+10  |paramsum     |
+11  |pgcd         |
+12  |print_hex    |
+13  |rstr_capitalizer |
+14  |str_capitalizer |
+15  |tab_mult     |
+ 
 ### Question 4 is from Level 4
 :question: Any of the 10 Functions/Programs Below:
-```
+
   - flood_fill
   - fprime
   - ft_itoa
@@ -87,7 +91,6 @@ Nr. |Question | Obs.
   - rostring
   - sort_int_tab
   - sort_list
-```
 
 ### Stats
 :swimmer: Total Pool of 57 Functions/Programs.
