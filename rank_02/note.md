@@ -36,10 +36,10 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |alpha_mirror   |
-02  |camel_to_snake |
-03  |do_op          |
-04  |ft_atoi        |
+01  |alpha_mirror   | done
+02  |camel_to_snake | done
+03  |do_op          | done
+04  |ft_atoi        | 
 05  |ft_strcmp      |
 06  |ft_strcspn     |
 07  |ft_strdup      |
