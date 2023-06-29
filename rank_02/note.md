@@ -26,10 +26,10 @@ Nr. |Question | Obs.
 06  |putstr | ok
 07  |repeat_alpha |done
 08  |rev_print | ok
-09  |rot_13 |
-10  |rotone |
-11  |search_and_replace |
-12  |ulstr |
+09  |rot_13 | ok
+10  |rotone | **make more**
+11  |search_and_replace | **make more**
+12  |ulstr | ok
 
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
