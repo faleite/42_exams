@@ -39,20 +39,20 @@ Nr. |Question | Obs.
 01  |alpha_mirror   | done
 02  |camel_to_snake | done
 03  |do_op          | done
-04  |ft_atoi        | 
-05  |ft_strcmp      |
-06  |ft_strcspn     |
-07  |ft_strdup      |
-08  |ft_strpbrk     |
-09  |ft_strrev      |
-10  |ft_strspn      |
-11  |inter          |
-12  |is_power_of_2  |
-13  |last_word      |
-14  |max            |
-15  |print_bits     |
-16  |reverse_bits   |
-17  |snake_to_camel |
+04  |ft_atoi        | done 
+05  |ft_strcmp      | ok
+06  |ft_strcspn     | done
+07  |ft_strdup      | done
+08  |ft_strpbrk     | done
+09  |ft_strrev      | done
+10  |ft_strspn      | done
+11  |inter          | make more
+12  |is_power_of_2  | done
+13  |last_word      | done
+14  |max            | done
+15  |print_bits     | done
+16  |reverse_bits   | done
+17  |snake_to_camel | done
 18  |swap_bits      |
 19  |union          |
 20  |wdmatch        |
@@ -81,16 +81,18 @@ Nr. |Question | Obs.
 ### Question 4 is from Level 4
 :question: Any of the 10 Functions/Programs Below:
 
-  - flood_fill
-  - fprime
-  - ft_itoa
-  - ft_list_foreach
-  - ft_list_remove_if
-  - ft_split
-  - rev_wstr
-  - rostring
-  - sort_int_tab
-  - sort_list
+Nr. |Question | Obs.
+----|---------|:-----:
+01  |flood_fill
+02  |fprime
+03  |ft_itoa
+04  |ft_list_foreach
+05  |ft_list_remove_if
+06  |ft_split
+07  |rev_wstr
+08  |rostring
+09  |sort_int_tab
+10  |sort_list
 
 ### Stats
 :swimmer: Total Pool of 57 Functions/Programs.
