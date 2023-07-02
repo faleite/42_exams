@@ -53,9 +53,9 @@ Nr. |Question | Obs.
 15  |print_bits     | done
 16  |reverse_bits   | done
 17  |snake_to_camel | done
-18  |swap_bits      |
-19  |union          |
-20  |wdmatch        |
+18  |swap_bits      | done
+19  |union          | done
+20  |wdmatch        | done
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
