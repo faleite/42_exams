@@ -41,7 +41,7 @@ $>
 
 #include <unistd.h>
 
-/* Functio  for write numbers */
+/* Function for write numbers */
 void	putnbr(int nb)
 {
 	if (nb < 10)
