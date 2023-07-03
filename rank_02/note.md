@@ -45,7 +45,7 @@ Nr. |Question | Obs.
 07  |ft_strdup      | done
 08  |ft_strpbrk     | done
 09  |ft_strrev      | done
-10  |ft_strspn      | done
+10  |ft_strspn      | (use ft strchr how aux)
 11  |inter          | make more
 12  |is_power_of_2  | done
 13  |last_word      | done
@@ -54,7 +54,7 @@ Nr. |Question | Obs.
 16  |reverse_bits   | done
 17  |snake_to_camel | done
 18  |swap_bits      | done
-19  |union          | done
+19  |union          | (you need ft cheek_double how aux) 
 20  |wdmatch        | done
 
 ### Question 3 is from Level 3
@@ -62,7 +62,7 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |add_prime_sum|
+01  |add_prime_sum| you need aux ft: putnbr, atoi, is_prime
 02  |epur_str     |
 03  |expand_str   |
 04  |ft_atoi_base |
