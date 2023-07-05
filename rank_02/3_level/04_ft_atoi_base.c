@@ -55,5 +55,5 @@ int		ft_atoi_base(const char *str, int str_base)
 
 int	main(void)
 {
-	printf("%d", ft_atoi_base("1", 4));
+	printf("%d", ft_atoi_base("123bf0", 16));
 }

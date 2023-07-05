@@ -63,9 +63,9 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|:-----:
 01  |add_prime_sum| you need aux ft: putnbr, atoi, is_prime
-02  |epur_str     |
-03  |expand_str   |
-04  |ft_atoi_base |
+02  |epur_str     | done
+03  |expand_str   | done
+04  |ft_atoi_base | done
 05  |ft_list_size |
 06  |ft_range     |
 07  |ft_rrange    |
