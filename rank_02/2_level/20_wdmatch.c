@@ -31,24 +31,23 @@ $
 
 #include <unistd.h>
 
-void	putstr(char *str)
-{
-	while (*str)
-		write(1, str++, 1);
-}
-
 void	wdmatch(char *s1, char *s2)
 {
 	int i = 0;
 	int j = 0;
 
-	while (s2[j] != 0)
+	while (s2[j] != '\0' && s1[i] != '\0')
 	{
-		if (s2[j++] == s1[i])
+		if (s2[j] == s1[i])
 			i++;
+		j++;
+		if (!(s1[i] != '\0'))
+		{
+			i = 0;
+			while (s1[i] != '\0')
+				write(1, &s1[i++], 1);
+		}
 	}
-	if (!s1[i])
-		putstr(s1);
 }
 
 int	main(int ac, char **av)
