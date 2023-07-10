@@ -18,44 +18,44 @@ There is no Norminette in this exam.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |first_word|done 
-02  |fizzbuzz |done
-03  |ft_strcpy |ok
-04  |ft_strlen |ok
-05  |ft_swap |done
-06  |putstr | ok
-07  |repeat_alpha |done
-08  |rev_print | ok
-09  |rot_13 | ok
-10  |rotone | **make more**
-11  |search_and_replace | **make more**
-12  |ulstr | ok
+01  |first_word| 
+02  |fizzbuzz |
+03  |ft_strcpy |
+04  |ft_strlen |
+05  |ft_swap |
+06  |putstr | 
+07  |repeat_alpha |
+08  |rev_print | 
+09  |rot_13 | 
+10  |rotone |
+11  |search_and_replace |
+12  |ulstr | 
 
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |alpha_mirror   | done
-02  |camel_to_snake | done
-03  |do_op          | done
-04  |ft_atoi        | done 
-05  |ft_strcmp      | ok
-06  |ft_strcspn     | done
-07  |ft_strdup      | done
-08  |ft_strpbrk     | done
-09  |ft_strrev      | done
+01  |alpha_mirror   | 
+02  |camel_to_snake | 
+03  |do_op          | 
+04  |ft_atoi        |
+05  |ft_strcmp      | 
+06  |ft_strcspn     | 
+07  |ft_strdup      | 
+08  |ft_strpbrk     | 
+09  |ft_strrev      | 
 10  |ft_strspn      | (use ft strchr how aux)
-11  |inter          | make more
-12  |is_power_of_2  | done
-13  |last_word      | done
-14  |max            | done
-15  |print_bits     | done
-16  |reverse_bits   | done
-17  |snake_to_camel | done
-18  |swap_bits      | done
+11  |inter          |
+12  |is_power_of_2  | 
+13  |last_word      | 
+14  |max            | 
+15  |print_bits     | 
+16  |reverse_bits   | 
+17  |snake_to_camel | 
+18  |swap_bits      | 
 19  |union          | (you need ft cheek_double how aux) 
-20  |wdmatch        | done
+20  |wdmatch        | *Make 10/07* 
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
@@ -63,9 +63,9 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|:-----:
 01  |add_prime_sum| you need aux ft: putnbr, atoi, is_prime
-02  |epur_str     | done
-03  |expand_str   | done
-04  |ft_atoi_base | done
+02  |epur_str     | 
+03  |expand_str   | 
+04  |ft_atoi_base | 
 05  |ft_list_size |
 06  |ft_range     |
 07  |ft_rrange    |
