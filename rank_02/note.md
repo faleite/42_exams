@@ -24,7 +24,7 @@ Nr. |Question | Obs.
 04  |ft_strlen |
 05  |ft_swap |
 06  |putstr | 
-07  |repeat_alpha |
+07  |repeat_alpha | done
 08  |rev_print | 
 09  |rot_13 | 
 10  |rotone |
@@ -55,7 +55,7 @@ Nr. |Question | Obs.
 17  |snake_to_camel | 
 18  |swap_bits      | 
 19  |union          | (you need ft cheek_double how aux) 
-20  |wdmatch        | *Make 10/07* 
+20  |wdmatch        | Caiu no ultimo exam 
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
