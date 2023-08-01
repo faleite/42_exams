@@ -47,7 +47,7 @@ Nr. |Question | Obs.
 09  |ft_strrev      | 
 10  |ft_strspn      | (use ft strchr how aux)
 11  |inter          |
-12  |is_power_of_2  | 
+12  |is_power_of_2  | done
 13  |last_word      | 
 14  |max            | 
 15  |print_bits     | 
@@ -63,7 +63,7 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|:-----:
 01  |add_prime_sum| you need aux ft: putnbr, atoi, is_prime
-02  |epur_str     | 
+02  |epur_str     | done
 03  |expand_str   | 
 04  |ft_atoi_base | 
 05  |ft_list_size |
@@ -83,12 +83,12 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |flood_fill
-02  |fprime
+01  |flood_fill |
+02  |fprime | done
 03  |ft_itoa
 04  |ft_list_foreach
 05  |ft_list_remove_if
-06  |ft_split
+06  |ft_split | done
 07  |rev_wstr
 08  |rostring
 09  |sort_int_tab
