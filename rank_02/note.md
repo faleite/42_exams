@@ -21,7 +21,7 @@ Nr. |Question | Obs.
 01  |first_word| 
 02  |fizzbuzz |
 03  |ft_strcpy |
-04  |ft_strlen |
+04  |ft_strlen | OK!
 05  |ft_swap |
 06  |putstr | 
 07  |repeat_alpha | done
@@ -36,7 +36,7 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |alpha_mirror   | 
+01  |alpha_mirror   | done
 02  |camel_to_snake | 
 03  |do_op          | 
 04  |ft_atoi        |
