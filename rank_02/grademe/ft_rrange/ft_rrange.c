@@ -1,66 +1,51 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int	arr_len(int start, int end)
+int	index_len(int start, int end)
 {
-	int	total;
-
-	total = end - start;
-
-	if (total < 0)
-		total *= -1;
-	return (total + 1);
-}
-
-int	*arr(int	*array, int start, int end, int sig, int index)
-{
-
-	if (start !=  end)
-		array = arr(array, start, end + sig, sig, index  + 1);
-	else
-		array = malloc(sizeof(int) * index + 1);
-	if (array)
-		array[index] = end;
-	return (array);
+	if (!start && !end)
+		return (0);
+	if (end < 0)
+		end *= -1;
+	return ((end - (start)) + 1); 
 }
 
 int	*ft_rrange(int start, int end)
 {
-	// int	*array;
-	// int	len;
-	// int	i;
-
-	// i = 0;
-	// len = arr_len(start, end);
-	// array = NULL;
-	// array = malloc(sizeof(int) * len);
-	// if (!array)
-	// 	return (NULL);
-	// while (len--)
-	// {
-	// 	array[i++] = end;
-	// 	if (start > end)
-	// 		end++;
-	// 	else
-	// 		end--;
-
-	// }
-	return arr(NULL, start, end, (start >= end) - (start < end), 0);
-}
-
-int	main(void)
-{
-	int len;
-	int start = -1;
-	int end = 2;
-	int	*arr;
-
-	arr = ft_rrange(start, end);
-	len = arr_len(start, end);
+	int	*array;
+	int	len;
+	int	i;
+	
+	len = index_len(start, end);
+	i = 0;
+	array = (int *)malloc(sizeof(int) * len);
+	if (!array)
+		return (NULL);
 	while (len--)
 	{
-		printf("%d ", *arr++);
+		array[i++] = end;
+		if (start > end)
+			end++;
+		else
+			end--;
 	}
-	return (0);
+	return (array);
 }
+/*
+int	main(int ac, char *av[])
+{
+	(void)ac;
+	int a;
+	int b;
+	int *array;
 
+	a = atoi(av[1]);
+	b = atoi(av[2]);
+	int len = index_len(a, b) + 1;
+	
+	array = ft_rrange(a, b);
+	while (len--)
+		printf("%d ", *array++);
+	return(0);
+}
+*/

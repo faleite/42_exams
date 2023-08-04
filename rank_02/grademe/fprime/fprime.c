@@ -3,23 +3,21 @@
 
 void	fprime(char *nbr)
 {
+	int	nb;
 	int	i;
-	int	number;
-
+	
+	nb = atoi(nbr);
 	i = 1;
-	number = atoi(nbr);
-	if (number == 1)
+	if (nb == 1)
 		printf("1");
-	while (number >= ++i)
+	while (nb >= ++i)
 	{
-		if (number % i == 0)
+		while (nb % i == 0)
 		{
 			printf("%d", i);
-			if (number == i)
-				break ;
-			printf("*");
-			number /= i;
-			i = 1;
+			if (nb != i)
+				printf("*");
+			nb /= i;
 		}
 	}
 }

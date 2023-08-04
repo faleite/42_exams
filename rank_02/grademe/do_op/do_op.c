@@ -1,25 +1,26 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
-int	do_op(char *nbr1, char *op, char *nbr2)
+int	do_op(char *nb1, char op[0], char *nb2)
 {
-	int	nb1;
-	int nb2;
+	int	nbr1;
+	int	nbr2;
 	int	result;
 
-	nb1 = atoi(nbr1);
-	nb2 = atoi(nbr2);
+	nbr1 = atoi(nb1);
+	nbr2 = atoi(nb2);
 	result = 0;
 	if (op[0] == '+')
-		result = nb1 + nb2;
+		result = nbr1 + nbr2;
 	else if (op[0] == '-')
-		result = nb1 - nb2;
+		result = nbr1 -	nbr2;
 	else if (op[0] == '*')
-		result = nb1 * nb2;
+		result = nbr1 * nbr2;
 	else if (op[0] == '/')
-		result = nb1 / nb2;
+		result = nbr1 / nbr2;
 	else if (op[0] == '%')
-		result = nb1 % nb2;
+		result = nbr1 % nbr2;
 	return (result);
 }
 
