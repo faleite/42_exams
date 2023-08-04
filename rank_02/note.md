@@ -26,7 +26,7 @@ Nr. |Question | Obs.
 06  |putstr | 
 07  |repeat_alpha | done
 08  |rev_print | 
-09  |rot_13 | 
+09  |rot_13 | done
 10  |rotone |
 11  |search_and_replace |
 12  |ulstr | 
@@ -37,7 +37,7 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|:-----:
 01  |alpha_mirror   | done
-02  |camel_to_snake | 
+02  |camel_to_snake | done
 03  |do_op          | 
 04  |ft_atoi        |
 05  |ft_strcmp      | 
@@ -64,11 +64,11 @@ Nr. |Question | Obs.
 ----|---------|:-----:
 01  |add_prime_sum| you need aux ft: putnbr, atoi, is_prime
 02  |epur_str     | done
-03  |expand_str   | 
+03  |expand_str   | done
 04  |ft_atoi_base | 
 05  |ft_list_size |
 06  |ft_range     |
-07  |ft_rrange    |
+07  |ft_rrange    | done
 08  |hidenp       |
 09  |lcm          |
 10  |paramsum     |
