@@ -28,7 +28,7 @@ Nr. |Question | Obs.
 08  |rev_print | 
 09  |rot_13 | done
 10  |rotone |
-11  |search_and_replace |
+11  |search_and_replace | done
 12  |ulstr | 
 
 ### Question 2 is from Level 2
@@ -53,7 +53,7 @@ Nr. |Question | Obs.
 15  |print_bits     | 
 16  |reverse_bits   | 
 17  |snake_to_camel | 
-18  |swap_bits      | 
+18  |swap_bits      | done (you need remember)
 19  |union          | (you need ft cheek_double how aux) 
 20  |wdmatch        | Caiu no ultimo exam 
 
@@ -65,7 +65,7 @@ Nr. |Question | Obs.
 01  |add_prime_sum| you need aux ft: putnbr, atoi, is_prime
 02  |epur_str     | done
 03  |expand_str   | done
-04  |ft_atoi_base | 
+04  |ft_atoi_base | done (you need remember)
 05  |ft_list_size |
 06  |ft_range     |
 07  |ft_rrange    | done
