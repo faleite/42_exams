@@ -19,7 +19,7 @@ There is no Norminette in this exam.
 Nr. |Question | Obs.
 ----|---------|:-----:
 01  |first_word| 
-02  |fizzbuzz |
+02  |fizzbuzz | done
 03  |ft_strcpy |
 04  |ft_strlen | OK!
 05  |ft_swap |
@@ -40,7 +40,7 @@ Nr. |Question | Obs.
 02  |camel_to_snake | done
 03  |do_op          | 
 04  |ft_atoi        |
-05  |ft_strcmp      | 
+05  |ft_strcmp      | done (look for remember)
 06  |ft_strcspn     | 
 07  |ft_strdup      | 
 08  |ft_strpbrk     | 
