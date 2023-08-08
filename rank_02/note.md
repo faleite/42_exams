@@ -24,11 +24,11 @@ Nr. |Question | Obs.
 04  |ft_strlen | done
 05  |ft_swap | done
 06  |putstr | done
-07  |repeat_alpha | done*
+07  |repeat_alpha | done
 08  |rev_print | done
 09  |rot_13 | done
 10  |rotone | done
-11  |search_and_replace | done*
+11  |search_and_replace | done
 12  |ulstr | done
 
 ### Question 2 is from Level 2
@@ -36,24 +36,24 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |alpha_mirror   | done
-02  |camel_to_snake | done
+01  |alpha_mirror   |
+02  |camel_to_snake |
 03  |do_op          | 
 04  |ft_atoi        |
-05  |ft_strcmp      | done (look for remember)
+05  |ft_strcmp      | (look for remember)
 06  |ft_strcspn     | 
 07  |ft_strdup      | 
 08  |ft_strpbrk     | 
 09  |ft_strrev      | 
 10  |ft_strspn      | (use ft strchr how aux)
 11  |inter          |
-12  |is_power_of_2  | done
+12  |is_power_of_2  |
 13  |last_word      | 
 14  |max            | 
 15  |print_bits     | 
 16  |reverse_bits   | 
 17  |snake_to_camel | 
-18  |swap_bits      | done (you need remember)
+18  |swap_bits      | (you need remember)
 19  |union          | (you need ft cheek_double how aux) 
 20  |wdmatch        | Caiu no ultimo exam 
 
