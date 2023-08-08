@@ -18,7 +18,7 @@ There is no Norminette in this exam.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |first_word| 
+01  |first_word| done
 02  |fizzbuzz | done
 03  |ft_strcpy |
 04  |ft_strlen | OK!
