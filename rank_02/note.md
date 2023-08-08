@@ -20,16 +20,16 @@ Nr. |Question | Obs.
 ----|---------|:-----:
 01  |first_word| done
 02  |fizzbuzz | done
-03  |ft_strcpy |
-04  |ft_strlen | OK!
-05  |ft_swap |
-06  |putstr | 
-07  |repeat_alpha | done
-08  |rev_print | 
+03  |ft_strcpy | done
+04  |ft_strlen | done
+05  |ft_swap | done
+06  |putstr | done
+07  |repeat_alpha | done*
+08  |rev_print | done
 09  |rot_13 | done
-10  |rotone |
-11  |search_and_replace | done
-12  |ulstr | 
+10  |rotone | done
+11  |search_and_replace | done*
+12  |ulstr | done
 
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
