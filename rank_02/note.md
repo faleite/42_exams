@@ -52,7 +52,7 @@ Nr. |Question | Obs.
 14  |max            | 
 15  |print_bits     | 
 16  |reverse_bits   | 
-17  |snake_to_camel | 
+17  |snake_to_camel | done 
 18  |swap_bits      | (you need remember)
 19  |union          | (you need ft cheek_double how aux) 
 20  |wdmatch        | Caiu no ultimo exam 
