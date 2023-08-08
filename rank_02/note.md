@@ -42,7 +42,7 @@ Nr. |Question | Obs.
 04  |ft_atoi        | done
 05  |ft_strcmp      | (look for remember)
 06  |ft_strcspn     | 
-07  |ft_strdup      | 
+07  |ft_strdup      | done
 08  |ft_strpbrk     | 
 09  |ft_strrev      | 
 10  |ft_strspn      | (use ft strchr how aux)
