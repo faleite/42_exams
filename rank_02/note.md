@@ -40,7 +40,7 @@ Nr. |Question | Obs.
 02  |camel_to_snake |
 03  |do_op          | 
 04  |ft_atoi        | done
-05  |ft_strcmp      | (look for remember)
+05  |ft_strcmp      | done (look for remember)
 06  |ft_strcspn     | 
 07  |ft_strdup      | done
 08  |ft_strpbrk     | 
