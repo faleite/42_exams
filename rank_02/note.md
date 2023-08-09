@@ -47,7 +47,7 @@ Nr. |Question | Obs.
 09  |ft_strrev      | 
 10  |ft_strspn      | (use ft strchr how aux)
 11  |inter          |
-12  |is_power_of_2  |
+12  |is_power_of_2  | done (n == 0 rt 0, n == 1 rt 1)
 13  |last_word      | 
 14  |max            | 
 15  |print_bits     | 
