@@ -41,7 +41,7 @@ Nr. |Question | Obs.
 03  |do_op          | 
 04  |ft_atoi        | done
 05  |ft_strcmp      | done (look for remember)
-06  |ft_strcspn     | 
+06  |ft_strcspn     | done (look fo remember)
 07  |ft_strdup      | done
 08  |ft_strpbrk     | 
 09  |ft_strrev      | 
