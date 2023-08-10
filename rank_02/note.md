@@ -48,7 +48,7 @@ Nr. |Question | Obs.
 10  |ft_strspn      | (use ft strchr how aux)
 11  |inter          | done (you need ft cheek_double how aux)
 12  |is_power_of_2  | done (n == 0 rt 0, n == 1 rt 1)
-13  |last_word      | 
+13  |last_word      | done (remember index begin in 0 (len +/- 1))
 14  |max            | 
 15  |print_bits     | 
 16  |reverse_bits   | 
