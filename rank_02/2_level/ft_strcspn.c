@@ -28,8 +28,8 @@ int	main(void)
 	const char *s1 = "Text string";
 	const char *rej = "s";
 
-	printf("%ld", strcspn(s1, rej));
-	printf("%ld", ft_strcspn(s1, rej));
+	printf("%ld\n", strcspn(s1, rej));
+	printf("%ld\n", ft_strcspn(s1, rej));
 	return (0);
 }
 */
