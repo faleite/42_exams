@@ -37,7 +37,7 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|:-----:
 01  |alpha_mirror   |
-02  |camel_to_snake |
+02  |camel_to_snake | done
 03  |do_op          | 
 04  |ft_atoi        | done
 05  |ft_strcmp      | done (look for remember)
