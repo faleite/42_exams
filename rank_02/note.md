@@ -50,10 +50,10 @@ Nr. |Question | Obs.
 12  |is_power_of_2  | done (n == 0 rt 0, n == 1 rt 1)
 13  |last_word      | done (remember index begin in 0 (len +/- 1))
 14  |max            | done
-15  |print_bits     | done (>> [move bit] & 1 [take bit])
+15  |print_bits     | done (\>> [move bit] & 1 [take bit])
 16  |reverse_bits   | 
 17  |snake_to_camel | done 
-18  |swap_bits      | done (>> 4 | << 4)
+18  |swap_bits      | done (\>> 4 | \<< 4)
 19  |union          | done (you need ft cheek_double how aux) 
 20  |wdmatch        | Caiu no ultimo exam 
 
