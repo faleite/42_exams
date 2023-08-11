@@ -54,7 +54,7 @@ Nr. |Question | Obs.
 16  |reverse_bits   | 
 17  |snake_to_camel | done 
 18  |swap_bits      | done (>> 4 | << 4)
-19  |union          | (you need ft cheek_double how aux) 
+19  |union          | done (you need ft cheek_double how aux) 
 20  |wdmatch        | Caiu no ultimo exam 
 
 ### Question 3 is from Level 3
