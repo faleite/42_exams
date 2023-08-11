@@ -1,13 +1,13 @@
 # Exam Details
 
-- This exam has 4 questions in total. A random question is picked from each level below. 
+- This exam has 4 questions in total. A random question is picked from each level below.
 - If you fail the exam, when you retake the exam next time, you will restart at Level 1 again with a different set of questions.
 
 <br>
 
 # Exam Norminette
 
-There is no Norminette in this exam. 
+There is no Norminette in this exam.
 
 <br>
 
@@ -43,19 +43,19 @@ Nr. |Question | Obs.
 05  |ft_strcmp      | done (look for remember)
 06  |ft_strcspn     | done (look fo remember)
 07  |ft_strdup      | done
-08  |ft_strpbrk     | 
-09  |ft_strrev      | 
+08  |ft_strpbrk     | done
+09  |ft_strrev      |
 10  |ft_strspn      | (use ft strchr how aux)
 11  |inter          | done (you need ft cheek_double how aux)
 12  |is_power_of_2  | done (n == 0 rt 0, n == 1 rt 1)
 13  |last_word      | done (remember index begin in 0 (len +/- 1))
 14  |max            | done
 15  |print_bits     | done (\>> [move bit] & 1 [take bit])
-16  |reverse_bits   | 
-17  |snake_to_camel | done 
+16  |reverse_bits   |
+17  |snake_to_camel | done
 18  |swap_bits      | done (\>> 4 \| \<< 4)
-19  |union          | done (you need ft cheek_double how aux) 
-20  |wdmatch        | Caiu no ultimo exam 
+19  |union          | done (you need ft cheek_double how aux)
+20  |wdmatch        | Caiu no ultimo exam
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
@@ -77,7 +77,7 @@ Nr. |Question | Obs.
 13  |rstr_capitalizer |
 14  |str_capitalizer |
 15  |tab_mult     |
- 
+
 ### Question 4 is from Level 4
 :question: Any of the 10 Functions/Programs Below:
 
