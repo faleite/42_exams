@@ -51,24 +51,24 @@ Nr. |Question | Obs.
 13  |last_word      | done (remember index begin in 0 (len +/- 1))
 14  |max            | done
 15  |print_bits     | done (\>> [move bit] & 1 [take bit])
-16  |reverse_bits   |
+16  |reverse_bits   | done
 17  |snake_to_camel | done
 18  |swap_bits      | done (\>> 4 \| \<< 4)
 19  |union          | done (you need ft cheek_double how aux)
-20  |wdmatch        | Caiu no ultimo exam
+20  |wdmatch        | done (Caiu no ultimo exam)
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |add_prime_sum| you need aux ft: putnbr, atoi, is_prime
-02  |epur_str     | done
-03  |expand_str   | done
-04  |ft_atoi_base | done (you need remember)
+01  |add_prime_sum| (you need ft: putnbr, atoi, is_prime)
+02  |epur_str     |
+03  |expand_str   |
+04  |ft_atoi_base | (you need remember)
 05  |ft_list_size |
 06  |ft_range     |
-07  |ft_rrange    | done
+07  |ft_rrange    |
 08  |hidenp       |
 09  |lcm          |
 10  |paramsum     |
