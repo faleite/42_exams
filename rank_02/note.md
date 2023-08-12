@@ -65,7 +65,7 @@ Nr. |Question | Obs.
 01  |add_prime_sum| done (utils: putnbr, atoi, is_prime, no param rt 0, 1 rt 1)
 02  |epur_str     | done
 03  |expand_str   |
-04  |ft_atoi_base | (you need remember)
+04  |ft_atoi_base | done (you need remember)
 05  |ft_list_size |
 06  |ft_range     | done
 07  |ft_rrange    | done
@@ -73,7 +73,7 @@ Nr. |Question | Obs.
 09  |lcm          |
 10  |paramsum     |
 11  |pgcd         |
-12  |print_hex    | done (use atoi no fim dentro da main)
+12  |print_hex    | done (limpar ' ' '\t' no inicio,  nao pegar ' ' '\t' apos palavra) 
 13  |rstr_capitalizer |
 14  |str_capitalizer |
 15  |tab_mult     |
