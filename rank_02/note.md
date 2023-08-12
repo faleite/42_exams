@@ -68,7 +68,7 @@ Nr. |Question | Obs.
 04  |ft_atoi_base | (you need remember)
 05  |ft_list_size |
 06  |ft_range     |
-07  |ft_rrange    |
+07  |ft_rrange    | done
 08  |hidenp       | done
 09  |lcm          |
 10  |paramsum     |
