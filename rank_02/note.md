@@ -63,7 +63,7 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|-----
 01  |add_prime_sum| (you need ft: putnbr, atoi, is_prime)
-02  |epur_str     |
+02  |epur_str     | done
 03  |expand_str   |
 04  |ft_atoi_base | (you need remember)
 05  |ft_list_size |
