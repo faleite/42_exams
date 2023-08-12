@@ -69,7 +69,7 @@ Nr. |Question | Obs.
 05  |ft_list_size |
 06  |ft_range     |
 07  |ft_rrange    |
-08  |hidenp       |
+08  |hidenp       | done
 09  |lcm          |
 10  |paramsum     |
 11  |pgcd         |
