@@ -22,7 +22,7 @@ size_t	ft_strcspn(const char *s, const char *reject)
 	return (i);
 }
 
-/*
+
 int	main(void)
 {
 	const char *s1 = "Text string";
@@ -32,4 +32,3 @@ int	main(void)
 	printf("%ld\n", ft_strcspn(s1, rej));
 	return (0);
 }
-*/
