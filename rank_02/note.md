@@ -73,7 +73,7 @@ Nr. |Question | Obs.
 09  |lcm          |
 10  |paramsum     |
 11  |pgcd         |
-12  |print_hex    |
+12  |print_hex    | done (use atoi no fim dentro da main)
 13  |rstr_capitalizer |
 14  |str_capitalizer |
 15  |tab_mult     |
