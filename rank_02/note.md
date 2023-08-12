@@ -35,7 +35,7 @@ Nr. |Question | Obs.
 :question: Any of the 20 Functions/Programs Below:
 
 Nr. |Question | Obs.
-----|---------|:-----:
+----|---------|-----
 01  |alpha_mirror   | done (155 and 219)
 02  |camel_to_snake | done
 03  |do_op          | done
@@ -61,7 +61,7 @@ Nr. |Question | Obs.
 :question: Any of the 15 Functions/Programs Below:
 
 Nr. |Question | Obs.
-----|---------|:-----:
+----|---------|-----
 01  |add_prime_sum| (you need ft: putnbr, atoi, is_prime)
 02  |epur_str     |
 03  |expand_str   |
@@ -82,7 +82,7 @@ Nr. |Question | Obs.
 :question: Any of the 10 Functions/Programs Below:
 
 Nr. |Question | Obs.
-----|---------|:-----:
+----|---------|-----
 01  |flood_fill |
 02  |fprime | done
 03  |ft_itoa
