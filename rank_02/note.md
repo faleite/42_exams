@@ -62,7 +62,7 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|-----
-01  |add_prime_sum| done (you need ft: putnbr, atoi, is_prime, if no param return 0, if 1 return 1)
+01  |add_prime_sum| done (utils: putnbr, atoi, is_prime, no param rt 0, 1 rt 1)
 02  |epur_str     | done
 03  |expand_str   |
 04  |ft_atoi_base | (you need remember)
