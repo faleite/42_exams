@@ -92,7 +92,7 @@ Nr. |Question | Obs.
 03  |ft_itoa | done (also return 0, -2147483648)
 04  |ft_list_foreach |
 05  |ft_list_remove_if |
-06  |ft_split | 
+06  |ft_split | done
 07  |rev_wstr |
 08  |rostring |
 09  |sort_int_tab |
