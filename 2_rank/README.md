@@ -88,15 +88,15 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|-----
 01  |flood_fill |
-02  |fprime | done
-03  |ft_itoa
-04  |ft_list_foreach
-05  |ft_list_remove_if
-06  |ft_split | done
-07  |rev_wstr
-08  |rostring
-09  |sort_int_tab
-10  |sort_list
+02  |fprime |
+03  |ft_itoa | done (also return 0, -2147483648)
+04  |ft_list_foreach |
+05  |ft_list_remove_if |
+06  |ft_split | 
+07  |rev_wstr |
+08  |rostring |
+09  |sort_int_tab |
+10  |sort_list |
 
 ### Stats
 :swimmer: Total Pool of 57 Functions/Programs.
