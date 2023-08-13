@@ -96,7 +96,7 @@ Nr. |Question | Obs.
 07  |rev_wstr |
 08  |rostring |
 09  |sort_int_tab |
-10  |sort_list |
+10  |sort_list | done (memorize)
 
 ### Stats
 :swimmer: Total Pool of 57 Functions/Programs.
