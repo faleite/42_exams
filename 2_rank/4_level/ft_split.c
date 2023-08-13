@@ -1,24 +1,26 @@
+
 #include <stdlib.h>
+#include <stdio.h>
 
-# define w_n 1000
-# define w_l 1000
+#define WD_NUM 1000
+#define WD_LEN 1000
 
-char	**split(char *str)
+void	copy_word(char **tab, char *str)
 {
-	int i = 0;
-	int j = 0;
-	int k = 0;
-	char **tab;
-	
-	tab = (char **)malloc(sizeof(char) * w_n);
-	while (str[i] == ' ' || str[i] == 't' || str[i] == '\n')
+	int	i;
+	int	j;
+	int	k;
+
+	i = 0;
+	j = 0;
+	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
 		i++;
 	while (str[i] != '\0')
 	{
-		if (str[i] > 32) // printables
+		if (str[i] > 32)
 		{
 			k = 0;
-			tab[j] = (char *)malloc(sizeof(char) * w_l);
+			tab[j] = (char *)malloc(sizeof(char) * WD_LEN);
 			while (str[i] > 32)
 			{
 				tab[j][k] = str[i];
@@ -32,18 +34,24 @@ char	**split(char *str)
 			i++;
 	}
 	tab[j] = 0;
+}
+
+char	**ft_split(char *str)
+{
+	char	**tab;
+
+	tab = (char **)malloc(sizeof(char *) * WD_NUM);
+	copy_word(tab, str);
 	return (tab);
 }
 
-#include <stdio.h>
+// int	main(void)
+// {
+// 	char *str = "   lorem   ipsum dolor  consectetur.   Suspendisse  ";
 
-int	main(void)
-{
-	char *str = "   lorem   ipsum dolor  consectetur.   Suspendisse  ";
+// 	char **split_str = ft_split(str);
 
-	char **split_str = split(str);
-
-	while (*split_str)
-		printf("%s\n", *split_str++);
-	return (0);
-}
+// 	while (*split_str)
+// 		printf("%s\n", *split_str++);
+// 	return (0);
+// }
