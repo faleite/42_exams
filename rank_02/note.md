@@ -64,19 +64,19 @@ Nr. |Question | Obs.
 ----|---------|-----
 01  |add_prime_sum| done (utils: putnbr, atoi, is_prime, no param rt 0, 1 rt 1)
 02  |epur_str     | done
-03  |expand_str   |
+03  |expand_str   | done
 04  |ft_atoi_base | done (you need remember)
-05  |ft_list_size |
+05  |ft_list_size | done (you need remember)
 06  |ft_range     | done
 07  |ft_rrange    | done
 08  |hidenp       | done
-09  |lcm          |
-10  |paramsum     |
-11  |pgcd         |
+09  |lcm          | done (memorize)
+10  |paramsum     | done
+11  |pgcd         | done (memorize)
 12  |print_hex    | done (limpar ' ' '\t' no inicio,  nao pegar ' ' '\t' apos palavra) 
-13  |rstr_capitalizer |
-14  |str_capitalizer |
-15  |tab_mult     |
+13  |rstr_capitalizer | done
+14  |str_capitalizer | done
+15  |tab_mult     | done
 
 ### Question 4 is from Level 4
 :question: Any of the 10 Functions/Programs Below:
