@@ -9,8 +9,7 @@
 ```
 42 School exam.
 
-### Note
-- [Rank 02](https://github.com/faleite/42exams/blob/main/2_rank/note.md)
+### [Rank 02](https://github.com/faleite/42exams/tree/main/2_rank)
 
 ---
 ### Pratice Tool
