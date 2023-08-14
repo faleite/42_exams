@@ -93,8 +93,8 @@ Nr. |Question | Obs.
 04  |ft_list_foreach |
 05  |ft_list_remove_if |
 06  |ft_split | done
-07  |rev_wstr | done (use putstr and split)
-08  |rostring |
+07  |rev_wstr | done (utils: putstr, split)
+08  |rostring | done (utils: putstr, split)
 09  |sort_int_tab |
 10  |sort_list | done (memorize)
 
