@@ -90,12 +90,12 @@ Nr. |Question | Obs.
 01  |flood_fill | done (memorize)
 02  |fprime | done (utils is_prime)
 03  |ft_itoa | done (also return 0, -2147483648)
-04  |ft_list_foreach |
-05  |ft_list_remove_if |
+04  |ft_list_foreach | done (memorize)
+05  |ft_list_remove_if |done (memorize, use free)
 06  |ft_split | done
 07  |rev_wstr | done (utils: putstr, split)
 08  |rostring | done (utils: putstr, split)
-09  |sort_int_tab |
+09  |sort_int_tab | done (memorize)
 10  |sort_list | done (memorize)
 
 ### Stats
