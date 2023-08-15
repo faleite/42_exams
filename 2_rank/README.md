@@ -43,7 +43,7 @@ Nr. |Question | Obs.
 01  |alpha_mirror   | done (155 and 219)
 02  |camel_to_snake | done
 03  |do_op          | done
-04  |ft_atoi        | done
+04  |ft_atoi        | done (se index 1 != num: rt 0, cond. while p/ null e nums)
 05  |ft_strcmp      | done (look for remember)
 06  |ft_strcspn     | done (look fo remember)
 07  |ft_strdup      | done
