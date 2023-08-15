@@ -48,7 +48,7 @@ Nr. |Question | Obs.
 06  |ft_strcspn     | done (look fo remember)
 07  |ft_strdup      | done
 08  |ft_strpbrk     | done
-09  |ft_strrev      | done (cada vez troca duas char (len /2))
+09  |ft_strrev      | done (cada vez troca duas char (len /2 - 1))
 10  |ft_strspn      | done (use ft strchr how aux)
 11  |inter          | done (you need ft cheek_double how aux)
 12  |is_power_of_2  | done (n == 0 rt 0, n == 1 rt 1)
