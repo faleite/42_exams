@@ -88,7 +88,7 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|-----
 01  |flood_fill | done (memorize)
-02  |fprime | done (utils is_prime)
+02  |fprime | done
 03  |ft_itoa | done (also return 0, -2147483648)
 04  |ft_list_foreach | done (memorize)
 05  |ft_list_remove_if |done (memorize, use free)
