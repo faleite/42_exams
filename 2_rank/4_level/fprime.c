@@ -1,38 +1,24 @@
 
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-int	is_prime(int nb)
+void	fprime(int nbr)
 {
 	int	i;
 
-	i = 2;
-	while (1)
+	if (nbr == 1)
 	{
-		if (nb % i == 0)
-		{
-			if (nb == i)
-				return (1);
-			else
-				break ;
-		}
-		i++;
+		printf("1");
+		return ;
 	}
-	return (0);
-}
-
-void	ftprime(int nb)
-{
-	int	i;
-
 	i = 2;
-	while (nb > 1)
+	while (nbr > 1)
 	{
-		if (is_prime(i) && nb % i == 0)
+		if (nbr % i == 0)
 		{
+			nbr /= i;
 			printf("%d", i);
-			nb /= i;
-			if (nb > 1)
+			if (nbr > 1)
 				printf("*");
 			i = 2;
 		}
@@ -40,11 +26,10 @@ void	ftprime(int nb)
 			i++;
 	}
 }
-
-int	main(int argc, char *argv[])
+int	main(int ac, char *av[])
 {
-	if (argc == 2)
-		ftprime(atoi(argv[1]));
+	if (ac == 2)
+		fprime(atoi(av[1]));
 	printf("\n");
 	return (0);
 }
