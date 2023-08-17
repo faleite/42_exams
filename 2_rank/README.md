@@ -77,7 +77,7 @@ Nr. |Question | Obs.
 09  |lcm          | done (memorize)
 10  |paramsum     | done
 11  |pgcd         | done (memorize)
-12  |print_hex    | done (limpar ' ' '\t' no inicio,  nao pegar ' ' '\t' apos palavra)
+12  |print_hex    | done (Use mesma logica de putnbr)
 13  |rstr_capitalizer | done
 14  |str_capitalizer | done
 15  |tab_mult     | done
