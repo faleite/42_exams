@@ -26,7 +26,7 @@ Nr. |Question | Obs.
 02  |fizzbuzz |
 03  |ft_strcpy | Done
 04  |ft_strlen |
-05  |ft_swap |
+05  |ft_swap | Done
 06  |putstr | Done
 07  |repeat_alpha | Done
 08  |rev_print |
