@@ -22,81 +22,81 @@ There is no Norminette in this exam.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |first_word| done
-02  |fizzbuzz | done
-03  |ft_strcpy | done
-04  |ft_strlen | done
-05  |ft_swap | done
-06  |putstr | done
-07  |repeat_alpha | done
-08  |rev_print | done
-09  |rot_13 | done
-10  |rotone | done
-11  |search_and_replace | done
-12  |ulstr | done
+01  |first_word|
+02  |fizzbuzz |
+03  |ft_strcpy |
+04  |ft_strlen |
+05  |ft_swap |
+06  |putstr |
+07  |repeat_alpha |
+08  |rev_print |
+09  |rot_13 |
+10  |rotone |
+11  |search_and_replace |
+12  |ulstr |
 
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
 
 Nr. |Question | Obs.
 ----|---------|-----
-01  |alpha_mirror   | done (155 and 219)
-02  |camel_to_snake | done
-03  |do_op          | done
-04  |ft_atoi        | done (se index 1 != num: rt 0, cond. while p/ null e nums)
-05  |ft_strcmp      | done (look for remember)
-06  |ft_strcspn     | done (look fo remember)
-07  |ft_strdup      | done
-08  |ft_strpbrk     | done
-09  |ft_strrev      | done (cada vez troca duas char (len /2 - 1))
-10  |ft_strspn      | done (use ft strchr how aux)
-11  |inter          | done (use ft check_double aux for check double char at a str)
-12  |is_power_of_2  | done (n == 0 rt 0, n == 1 rt 1)
-13  |last_word      | done (remember index begin in 0 (len +/- 1))
-14  |max            | done
-15  |print_bits     | done (\>> [move bit] & 1 [take bit])
-16  |reverse_bits   | done
-17  |snake_to_camel | done
-18  |swap_bits      | done (\>> 4 \| \<< 4)
-19  |union          | done (you need ft cheek_double how aux)
-20  |wdmatch        | done (Caiu no ultimo exam)
+01  |alpha_mirror   | (155 and 219)
+02  |camel_to_snake |
+03  |do_op          |
+04  |ft_atoi        | (se index 1 != num: rt 0, cond. while p/ null e nums)
+05  |ft_strcmp      | (look for remember)
+06  |ft_strcspn     | (look fo remember)
+07  |ft_strdup      |
+08  |ft_strpbrk     |
+09  |ft_strrev      | (cada vez troca duas char (len /2 - 1))
+10  |ft_strspn      | (use ft strchr how aux)
+11  |inter          | (use ft check_double aux for check double char at a str)
+12  |is_power_of_2  | (n == 0 rt 0, n == 1 rt 1)
+13  |last_word      | (remember index begin in 0 (len +/- 1))
+14  |max            |
+15  |print_bits     | (\>> [move bit] & 1 [take bit])
+16  |reverse_bits   |
+17  |snake_to_camel |
+18  |swap_bits      | (\>> 4 \| \<< 4)
+19  |union          | (you need ft cheek_double how aux)
+20  |wdmatch        | (Caiu no ultimo exam)
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
 
 Nr. |Question | Obs.
 ----|---------|-----
-01  |add_prime_sum| done (utils: putnbr, atoi, is_prime, no param rt 0, 1 rt 1)
-02  |epur_str     | done
-03  |expand_str   | done
-04  |ft_atoi_base | done (you need remember)
-05  |ft_list_size | done (you need remember)
-06  |ft_range     | done
-07  |ft_rrange    | done
-08  |hidenp       | done
-09  |lcm          | done (memorize)
-10  |paramsum     | done
-11  |pgcd         | done (memorize)
-12  |print_hex    | done (Use mesma logica de putnbr)
-13  |rstr_capitalizer | done
-14  |str_capitalizer | done
-15  |tab_mult     | done
+01  |add_prime_sum| (utils: putnbr, atoi, is_prime, no param rt 0, 1 rt 1)
+02  |epur_str     |
+03  |expand_str   |
+04  |ft_atoi_base | (you need remember)
+05  |ft_list_size | (you need remember)
+06  |ft_range     |
+07  |ft_rrange    |
+08  |hidenp       |
+09  |lcm          | (memorize)
+10  |paramsum     |
+11  |pgcd         | (memorize)
+12  |print_hex    | (Use mesma logica de putnbr)
+13  |rstr_capitalizer |
+14  |str_capitalizer |
+15  |tab_mult     |
 
 ### Question 4 is from Level 4
 :question: Any of the 10 Functions/Programs Below:
 
 Nr. |Question | Obs.
 ----|---------|-----
-01  |flood_fill | done (memorize)
-02  |fprime | done
-03  |ft_itoa | done (also return 0, -2147483648)
-04  |ft_list_foreach | done (memorize)
-05  |ft_list_remove_if |done (memorize, use free)
-06  |ft_split | done
-07  |rev_wstr | done (utils: putstr, split)
-08  |rostring | done (utils: putstr, split)
-09  |sort_int_tab | done (memorize)
-10  |sort_list | done (memorize)
+01  |flood_fill | (memorize)
+02  |fprime |
+03  |ft_itoa | (also return 0, -2147483648)
+04  |ft_list_foreach | (memorize)
+05  |ft_list_remove_if  (memorize, use free)
+06  |ft_split |
+07  |rev_wstr | (utils: putstr, split)
+08  |rostring | (utils: putstr, split)
+09  |sort_int_tab | (memorize)
+10  |sort_list | (memorize)
 
 ### Stats
 :swimmer: Total Pool of 57 Functions/Programs.
