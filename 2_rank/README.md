@@ -23,7 +23,7 @@ There is no Norminette in this exam.
 Nr. |Question | Obs.
 ----|---------|:-----:
 01  |first_word| Done
-02  |fizzbuzz |
+02  |fizzbuzz | Done
 03  |ft_strcpy | Done
 04  |ft_strlen | Done
 05  |ft_swap | Done
@@ -33,7 +33,7 @@ Nr. |Question | Obs.
 09  |rot_13 | Done
 10  |rotone | Done
 11  |search_and_replace | Done
-12  |ulstr |
+12  |ulstr | Done
 
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
