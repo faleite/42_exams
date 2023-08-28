@@ -36,3 +36,30 @@ $>
 /* de 'A' a 'M' +13 */
 
 /* de 'N' a 'Z' -13 */
+
+#include <unistd.h>
+
+void	rot_13(char *s)
+{
+	int	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		if ((s[i] >= 'A' && s[i] <= 'M') || (s[i] >= 'a' && s[i] <= 'm'))
+			s[i] += 13;
+		else if ((s[i] >= 'N' && s[i] <= 'Z') || (s[i] >= 'n' && s[i] <= 'z'))
+			s[i] -= 13;
+		write(1, &s[i], 1);
+		i++;
+	}
+}
+
+int	main(int ac, char *av[])
+{
+	if (ac == 2)
+		rot_13(av[1]);
+	write(1, "\n", 1);
+	return (0);
+}
+
