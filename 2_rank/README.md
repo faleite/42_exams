@@ -22,7 +22,7 @@ There is no Norminette in this exam.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |first_word|
+01  |first_word| Done
 02  |fizzbuzz |
 03  |ft_strcpy | Done
 04  |ft_strlen | Done
