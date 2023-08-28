@@ -25,13 +25,13 @@ Nr. |Question | Obs.
 01  |first_word|
 02  |fizzbuzz |
 03  |ft_strcpy | Done
-04  |ft_strlen |
+04  |ft_strlen | Done
 05  |ft_swap | Done
 06  |putstr | Done
 07  |repeat_alpha | Done
 08  |rev_print |
 09  |rot_13 | Done
-10  |rotone |
+10  |rotone | Done
 11  |search_and_replace | Done
 12  |ulstr |
 
