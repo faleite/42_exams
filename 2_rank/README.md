@@ -27,7 +27,7 @@ Nr. |Question | Obs.
 03  |ft_strcpy | Done
 04  |ft_strlen |
 05  |ft_swap |
-06  |putstr |
+06  |putstr | Done
 07  |repeat_alpha |
 08  |rev_print |
 09  |rot_13 | Done
