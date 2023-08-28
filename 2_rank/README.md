@@ -24,13 +24,13 @@ Nr. |Question | Obs.
 ----|---------|:-----:
 01  |first_word|
 02  |fizzbuzz |
-03  |ft_strcpy |
+03  |ft_strcpy | Done
 04  |ft_strlen |
 05  |ft_swap |
 06  |putstr |
 07  |repeat_alpha |
 08  |rev_print |
-09  |rot_13 |
+09  |rot_13 | Done
 10  |rotone |
 11  |search_and_replace | Done
 12  |ulstr |
