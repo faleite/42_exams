@@ -29,7 +29,7 @@ Nr. |Question | Obs.
 05  |ft_swap | Done
 06  |putstr | Done
 07  |repeat_alpha | Done
-08  |rev_print |
+08  |rev_print | Done
 09  |rot_13 | Done
 10  |rotone | Done
 11  |search_and_replace | Done
