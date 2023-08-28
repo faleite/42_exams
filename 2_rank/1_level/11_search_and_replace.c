@@ -30,6 +30,34 @@ eNcOre Un ExEmPle Pas Facile a Ecrire $
 
 #include <unistd.h>
 
+void	search_and_replace(char *s, char *c1, char *c2)
+{
+	int	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		if (s[i] == c1[0] && (c1[1] == '\0' && c2[1] == '\0'))
+			s[i] = c2[0];
+		write(1, &s[i], 1);
+		i++;
+	}
+}
+
+int	main(int ac, char *av[])
+{
+	if (ac == 4)
+	{
+		if (av[2][1] == '\0' && av[3][1] == '\0')
+			search_and_replace(av[1], av[2], av[3]);
+	}
+	write(1, "\n", 1);
+	return (0);
+}
+
+/**************************/
+/* Study about last exame */
+/**************************/
 int	main(int ac, char **av)
 {
 	int i = 0;
