@@ -19,12 +19,35 @@ $> ./rev_print | cat -e
 $
 */
 
-/* #include <> */
+#include <unistd.h>
 
-/* Make a program, you need argc and argv */
+/*******************/
+/* My first option */
+/*******************/
+int	ft_strlen(char *s)
+{
+	int	len;
 
-/* Count the length of string */
+	len = 0;
+	while (s[len] != '\0')
+		len++;
+	return (len);
+}
 
-/* write the string reverse */
+void	rev_print(char *s)
+{
+	int	len;
 
-/* write a newline */
+	len = ft_strlen(s);
+	while (len)
+		write(1, &s[--len], 1);
+}
+
+int	main(int ac, char *av[])
+{
+	if (ac == 2)
+		rev_print(av[1]);
+	write(1, "\n", 1);
+	return (0);
+}
+
