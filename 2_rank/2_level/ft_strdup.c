@@ -12,6 +12,28 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
+
+char	*ft_strdup(char *src)
+{
+	int		i;
+	char	*dst;
+
+	dst = malloc(sizeof(char) * ft_strlen(src) + 1);
+	if (!dst || !src)
+		return (NULL);
+	i = 0;
+	while (src[i] != '\0')
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	dst[i] = '\0';
+	return (dst);
+}
+
+/********************/
+/* About last exame */
+/*******************/
 char	*ft_strdup(char *src)
 {
 	int		len;
