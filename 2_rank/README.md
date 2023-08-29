@@ -40,10 +40,10 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|-----
-01  |alpha_mirror   | (155 and 219)
-02  |camel_to_snake |
-03  |do_op          |
-04  |ft_atoi        | (se index 1 != num: rt 0, cond. while p/ null e nums)
+01  |alpha_mirror   | **Done.** (155 and 219)
+02  |camel_to_snake | **Done.**
+03  |do_op          | **Done.**
+04  |ft_atoi        | **Done.**(se index 1 != num: rt 0, cond. while p/ null e nums)
 05  |ft_strcmp      | **Done** (look for remember)
 06  |ft_strcspn     | (look fo remember)
 07  |ft_strdup      |
