@@ -44,19 +44,19 @@ Nr. |Question | Obs.
 02  |camel_to_snake |
 03  |do_op          |
 04  |ft_atoi        | (se index 1 != num: rt 0, cond. while p/ null e nums)
-05  |ft_strcmp      | Done (look for remember)
+05  |ft_strcmp      | **Done** (look for remember)
 06  |ft_strcspn     | (look fo remember)
 07  |ft_strdup      |
 08  |ft_strpbrk     |
 09  |ft_strrev      | (cada vez troca duas char (len /2 - 1))
 10  |ft_strspn      | (use ft strchr how aux)
-11  |inter          | Done (utils: check_double)
+11  |inter          | **Done** (utils: check_double)
 12  |is_power_of_2  | (n == 0 rt 0, n == 1 rt 1)
 13  |last_word      | (remember index begin in 0 (len +/- 1))
-14  |max            | Done
+14  |max            | **Done**
 15  |print_bits     | (\>> [move bit] & 1 [take bit])
 16  |reverse_bits   |
-17  |snake_to_camel | Done
+17  |snake_to_camel | **Done**
 18  |swap_bits      | (\>> 4 \| \<< 4)
 19  |union          | (you need ft cheek_double how aux)
 20  |wdmatch        | (Caiu no ultimo exam)
