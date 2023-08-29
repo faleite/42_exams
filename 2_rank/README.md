@@ -50,7 +50,7 @@ Nr. |Question | Obs.
 08  |ft_strpbrk     |
 09  |ft_strrev      | (cada vez troca duas char (len /2 - 1))
 10  |ft_strspn      | (use ft strchr how aux)
-11  |inter          | (use ft check_double aux for check double char at a str)
+11  |inter          | Done (utils: check_double)
 12  |is_power_of_2  | (n == 0 rt 0, n == 1 rt 1)
 13  |last_word      | (remember index begin in 0 (len +/- 1))
 14  |max            |
