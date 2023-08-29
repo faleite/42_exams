@@ -1,6 +1,41 @@
 
 #include <unistd.h>
 
+int	ft_strlen(char *s)
+{
+	int	len;
+
+	len = 0;
+	while (s[len] != '\0')
+		len++;
+	return (len);
+}
+
+void	last_word(char *s)
+{
+	int	len;
+
+	len = ft_strlen(s) - 1;
+	while (s[len] == ' ' || s[len] == '\t')
+		len--;
+	while (s[len] > 32)
+		len--;
+	len++;
+	while (s[len] > 32)
+		write(1, &s[len++], 1);
+}
+
+int	main(int ac, char *av[])
+{
+	if (ac == 2)
+		last_word(av[1]);
+	write(1, "\n", 1);
+	return (0);
+}
+
+/*******************/
+/* About last exam */
+/*******************/
 int	ft_strlen(char *str)
 {
 	int	i;
