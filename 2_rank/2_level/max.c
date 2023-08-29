@@ -6,6 +6,7 @@ int	max(int *tab, unsigned int len)
 	int		result;
 	unsigned int	i;
 
+	/* if (!len || tab == NULL) */
 	if (!len)
 		return (0);
 	i = 0;
