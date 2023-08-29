@@ -3,19 +3,20 @@
 
 int	max(int *tab, unsigned int len)
 {
-	unsigned int i;
-	if (len == 0)
+	int		result;
+	unsigned int	i;
+
+	if (!len)
 		return (0);
 	i = 0;
-	while (len--)
+	result = tab[i];
+	while (i < len)
 	{
-		while (tab[0] < tab[i])
-		{
-			tab[0] = tab[i];
-		}
+		if (result < tab[i])
+			result = tab[i];
 		i++;
 	}
-	return (tab[0]);
+	return (result);
 }
 
 int main(void)
