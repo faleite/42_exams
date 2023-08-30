@@ -52,7 +52,7 @@ Nr. |Question | Obs.
 09  |ft_strrev      | *NoGrademe* (cada vez troca duas char (len /2 - 1))
 10  |ft_strspn      | *NoGrademe* (use ft strchr how aux)
 11  |inter          | **Done** (utils: check_double)
-12  |is_power_of_2  | (n == 0 rt 0, n == 1 rt 1)
+12  |is_power_of_2  | **Done** (n == 0 rt 0, n == 1 rt 1)
 13  |last_word      | **Done.** (remember index begin in 0 (len +/- 1))
 14  |max            | **Done**
 15  |print_bits     | **Done.** (\>> [move bit] & 1 [take bit])
