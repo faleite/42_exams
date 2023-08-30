@@ -11,9 +11,10 @@ There is no Norminette in this exam.
 
 <br>
 
-### Links Rank 02
+### Links
 - [Exam Rank 02 (rossi)](https://github.com/pasqualerossi/42-School-Exam-Rank-02)
 - [Exam Rank 02 (1337)](https://github.com/48d31kh413k/1337-exam_rank_02-42)
+- [Bitwise Operators](https://www.programiz.com/c-programming/bitwise-operators)
 
 # Exam Questions
 
