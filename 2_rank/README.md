@@ -55,7 +55,7 @@ Nr. |Question | Obs.
 12  |is_power_of_2  | (n == 0 rt 0, n == 1 rt 1)
 13  |last_word      | **Done.** (remember index begin in 0 (len +/- 1))
 14  |max            | **Done**
-15  |print_bits     | (\>> [move bit] & 1 [take bit])
+15  |print_bits     | **Done.** (\>> [move bit] & 1 [take bit])
 16  |reverse_bits   |
 17  |snake_to_camel | **Done**
 18  |swap_bits      | **Done.** (\>> 4 \| \<< 4)
