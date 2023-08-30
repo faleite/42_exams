@@ -23,6 +23,29 @@ _____________
 
 #include <stdio.h>
 
+
+#include <stdio.h>
+
+unsigned char	reverse_bits(unsigned char octet)
+{
+	unsigned int	i;
+	unsigned char	res;
+
+	i = 8;
+	res = 0;
+	while (i--)
+	{
+		res *= 2;
+		res += octet % 2;
+		octet /= 2;
+	}
+	return (res);
+}
+
+
+/*******************/
+/* About last exam */
+/*******************/
 unsigned char	reverse_bits(unsigned char octet)
 {
 	int				i;
