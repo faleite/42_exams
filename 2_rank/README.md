@@ -56,7 +56,7 @@ Nr. |Question | Obs.
 13  |last_word      | **Done.** (remember index begin in 0 (len +/- 1))
 14  |max            | **Done**
 15  |print_bits     | **Done.** (\>> [move bit] & 1 [take bit])
-16  |reverse_bits   | **...** **Done** *NoGrademe*
+16  |reverse_bits   | **Done** *NoGrademe*
 17  |snake_to_camel | **Done**
 18  |swap_bits      | **Done.** (\>> 4 \| \<< 4)
 19  |union          | (you need ft cheek_double how aux)
