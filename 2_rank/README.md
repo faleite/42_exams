@@ -48,19 +48,19 @@ Nr. |Question | Obs.
 05  |ft_strcmp      | **Done** (look for remember)
 06  |ft_strcspn     | (look for remember)
 07  |ft_strdup      | **Done.**
-08  |ft_strpbrk     |
-09  |ft_strrev      | (cada vez troca duas char (len /2 - 1))
+08  |ft_strpbrk     | *No grademe*
+09  |ft_strrev      | *No grademe* (cada vez troca duas char (len /2 - 1))
 10  |ft_strspn      | (use ft strchr how aux)
 11  |inter          | **Done** (utils: check_double)
 12  |is_power_of_2  | (n == 0 rt 0, n == 1 rt 1)
 13  |last_word      | **Done.** (remember index begin in 0 (len +/- 1))
 14  |max            | **Done**
 15  |print_bits     | **Done.** (\>> [move bit] & 1 [take bit])
-16  |reverse_bits   |
+16  |reverse_bits   | *No grademe*
 17  |snake_to_camel | **Done**
 18  |swap_bits      | **Done.** (\>> 4 \| \<< 4)
 19  |union          | (you need ft cheek_double how aux)
-20  |wdmatch        | (Caiu no ultimo exam)
+20  |wdmatch        | *No grademe*
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
