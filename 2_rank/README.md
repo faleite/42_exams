@@ -45,7 +45,7 @@ Nr. |Question | Obs.
 03  |do_op          | **Done.**
 04  |ft_atoi        | **Done.**(se index 1 != num: rt 0, cond. while p/ null e nums)
 05  |ft_strcmp      | **Done** (look for remember)
-06  |ft_strcspn     | (look fo remember)
+06  |ft_strcspn     | (look for remember)
 07  |ft_strdup      | **Done.**
 08  |ft_strpbrk     |
 09  |ft_strrev      | (cada vez troca duas char (len /2 - 1))
