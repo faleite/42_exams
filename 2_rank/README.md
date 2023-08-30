@@ -57,7 +57,7 @@ Nr. |Question | Obs.
 15  |print_bits     | (\>> [move bit] & 1 [take bit])
 16  |reverse_bits   |
 17  |snake_to_camel | **Done**
-18  |swap_bits      | (\>> 4 \| \<< 4)
+18  |swap_bits      | **Done.** (\>> 4 \| \<< 4)
 19  |union          | (you need ft cheek_double how aux)
 20  |wdmatch        | (Caiu no ultimo exam)
 
