@@ -42,25 +42,25 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|-----
 01  |[alpha_mirror](https://github.com/faleite/42exams/blob/main/2_rank/2_level/alpha_mirror.c)   | **Done.** (155 and 219)
-02  |camel_to_snake | **Done.**
-03  |do_op          | **Done.**
-04  |ft_atoi        | **Done.**(se index 1 != num: rt 0, cond. while p/ null e nums)
-05  |ft_strcmp      | **Done** (look for remember)
-06  |ft_strcspn     | **Done** (look for remember)
-07  |ft_strdup      | **Done.**
-08  |ft_strpbrk     | **Done.** *NoGrademe*
-09  |ft_strrev      | **Done** *NoGrademe* (cada vez troca duas char (len /2 - 1))
-10  |ft_strspn      | **Done** *NoGrademe* (use ft strchr how aux)
-11  |inter          | **Done** (utils: check_double)
-12  |is_power_of_2  | **Done** (n == 0 rt 0, n == 1 rt 1)
-13  |last_word      | **Done.** (remember index begin in 0 (len +/- 1))
-14  |max            | **Done**
-15  |print_bits     | **Done.** (\>> [move bit] & 1 [take bit])
-16  |reverse_bits   | **Done** *NoGrademe*
-17  |snake_to_camel | **Done**
-18  |swap_bits      | **Done.** (\>> 4 \| \<< 4)
-19  |union          | **Done.** (you need ft cheek_double how aux)
-20  |wdmatch        | **Done** *NoGrademe*
+02  |[camel_to_snake](https://github.com/faleite/42exams/blob/main/2_rank/2_level/camel_to_snake.c) | **Done.**
+03  |[do_op](https://github.com/faleite/42exams/blob/main/2_rank/2_level/do_op.c)          | **Done.**
+04  |[ft_atoi](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_atoi.c)        | **Done.**(se index 1 != num: rt 0, cond. while p/ null e nums)
+05  |[ft_strcmp](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strcmp.c)      | **Done** (look for remember)
+06  |[ft_strcspn](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strcspn.c)     | **Done** (look for remember)
+07  |[ft_strdup](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strdup.c)      | **Done.**
+08  |[ft_strpbrk](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strpbrk.c)     | **Done.** *NoGrademe*
+09  |[ft_strrev](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strrev.c)      | **Done** *NoGrademe* (cada vez troca duas char (len /2 - 1))
+10  |[ft_strspn](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strspn.c)      | **Done** *NoGrademe* (use ft strchr how aux)
+11  |[inter](https://github.com/faleite/42exams/blob/main/2_rank/2_level/inter.c)          | **Done** (utils: check_double)
+12  |[is_power_of_2](https://github.com/faleite/42exams/blob/main/2_rank/2_level/is_power_of_2.c)  | **Done** (n == 0 rt 0, n == 1 rt 1)
+13  |[last_word](https://github.com/faleite/42exams/blob/main/2_rank/2_level/last_word.c)      | **Done.** (remember index begin in 0 (len +/- 1))
+14  |[max](https://github.com/faleite/42exams/blob/main/2_rank/2_level/max.c)            | **Done**
+15  |[print_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/print_bits.c)     | **Done.** (\>> [move bit] & 1 [take bit])
+16  |[reverse_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/reverse_bits.c)   | **Done** *NoGrademe*
+17  |[snake_to_camel](https://github.com/faleite/42exams/blob/main/2_rank/2_level/snake_to_camel.c) | **Done**
+18  |[swap_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/swap_bits.c)      | **Done.** (\>> 4 \| \<< 4)
+19  |[union](https://github.com/faleite/42exams/blob/main/2_rank/2_level/union.c)          | **Done.** (you need ft cheek_double how aux)
+20  |[wdmatch](https://github.com/faleite/42exams/blob/main/2_rank/2_level/wdmatch.c)        | **Done** *NoGrademe*
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
