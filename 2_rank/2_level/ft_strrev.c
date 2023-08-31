@@ -35,7 +35,7 @@ char	*ft_strrev(char *str)
 	i = 0;
 	// a cada vez e trocado dois index
 	// a quantidade de torca deve ser a metade do tamnho da string
-	while ((len / 2) - 1)
+	while (len > i)
 	{
 		tmp = str[i];
 		str[i] = str[len];
