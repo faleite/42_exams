@@ -48,7 +48,7 @@ Nr. |Question | Obs.
 05  |ft_strcmp      | **Done** (look for remember)
 06  |ft_strcspn     | **Done** (look for remember)
 07  |ft_strdup      | **Done.**
-08  |ft_strpbrk     | *NoGrademe*
+08  |ft_strpbrk     | **Done.** *NoGrademe*
 09  |ft_strrev      | *NoGrademe* (cada vez troca duas char (len /2 - 1))
 10  |ft_strspn      | *NoGrademe* (use ft strchr how aux)
 11  |inter          | **Done** (utils: check_double)
