@@ -41,7 +41,7 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|-----
-01  |alpha_mirror   | **Done.** (155 and 219)
+01  |[alpha_mirror](https://github.com/faleite/42exams/blob/main/2_rank/2_level/alpha_mirror.c)   | **Done.** (155 and 219)
 02  |camel_to_snake | **Done.**
 03  |do_op          | **Done.**
 04  |ft_atoi        | **Done.**(se index 1 != num: rt 0, cond. while p/ null e nums)
