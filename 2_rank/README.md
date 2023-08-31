@@ -60,7 +60,7 @@ Nr. |Question | Obs.
 17  |snake_to_camel | **Done**
 18  |swap_bits      | **Done.** (\>> 4 \| \<< 4)
 19  |union          | **Done.** (you need ft cheek_double how aux)
-20  |wdmatch        | *NoGrademe*
+20  |wdmatch        | **Done** *NoGrademe*
 
 ### Question 3 is from Level 3
 :question: Any of the 15 Functions/Programs Below:
