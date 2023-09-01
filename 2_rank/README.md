@@ -81,7 +81,7 @@ Nr. |Question | Obs.
 12  |print_hex    | (Use mesma logica de putnbr)
 13  |[rstr_capitalizer](https://github.com/faleite/42exams/blob/main/2_rank/3_level/rstr_capitalizer.c) |**Done.**
 14  |[str_capitalizer](https://github.com/faleite/42exams/blob/main/2_rank/3_level/str_capitalizer.c) | **Done.**
-15  |tab_mult     |
+15  |[tab_mult](https://github.com/faleite/42exams/blob/main/2_rank/3_level/tab_mult.c) |**Done.**
 
 ### Question 4 is from Level 4
 :question: Any of the 10 Functions/Programs Below:
