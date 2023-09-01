@@ -1,6 +1,7 @@
 
 #include <unistd.h>
 
+
 void	ft_putnbr(int nb)
 {
 	if (nb < 10)
@@ -12,6 +13,23 @@ void	ft_putnbr(int nb)
 	}
 }
 
+/************/
+/* Option 1 */
+/************/
+int	main(int argc, char *argv[])
+{
+	(void)argv;
+	// if (argc == 1)
+	// 	write(1, "0", 1);
+	// else
+	ft_putnbr(argc - 1);
+	write(1, "\n", 1);
+	return (0);
+}
+
+/************/
+/* Option 2 */
+/************/
 int	main(int argc, char *argv[])
 {
 	int	i;
