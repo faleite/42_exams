@@ -78,7 +78,7 @@ Nr. |Question | Obs.
 09  |lcm          | (memorize)
 10  |[paramsum](https://github.com/faleite/42exams/blob/main/2_rank/3_level/paramsum.c)     | **Done.**
 11  |[pgcd](https://github.com/faleite/42exams/blob/main/2_rank/3_level/pgcd.c)         | **Done** (memorize)
-12  |print_hex    | (Use mesma logica de putnbr)
+12  |[print_hex](https://github.com/faleite/42exams/blob/main/2_rank/3_level/print_hex.c) | **Done.** (Use mesma logica de putnbr)
 13  |[rstr_capitalizer](https://github.com/faleite/42exams/blob/main/2_rank/3_level/rstr_capitalizer.c) |**Done.**
 14  |[str_capitalizer](https://github.com/faleite/42exams/blob/main/2_rank/3_level/str_capitalizer.c) | **Done.**
 15  |[tab_mult](https://github.com/faleite/42exams/blob/main/2_rank/3_level/tab_mult.c) |**Done.**
