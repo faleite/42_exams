@@ -26,7 +26,7 @@ Nb slihv rh Znzarmt.$
 $>./alpha_mirror | cat -e
 $
 $>
-/*
+*/
 	
 #include <unistd.h>
 
