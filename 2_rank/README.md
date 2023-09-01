@@ -74,7 +74,7 @@ Nr. |Question | Obs.
 05  |ft_list_size | (you need remember)
 06  |ft_range     |
 07  |ft_rrange    |
-08  |hidenp       |
+08  |hidenp       | **Done.** (https://github.com/faleite/42exams/blob/main/2_rank/3_level/hidenp.c)
 09  |lcm          | (memorize)
 10  |[paramsum](https://github.com/faleite/42exams/blob/main/2_rank/3_level/paramsum.c)     | **Done.**
 11  |[pgcd](https://github.com/faleite/42exams/blob/main/2_rank/3_level/pgcd.c)         | **Done** (memorize)
