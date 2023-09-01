@@ -80,7 +80,7 @@ Nr. |Question | Obs.
 11  |[pgcd](https://github.com/faleite/42exams/blob/main/2_rank/3_level/pgcd.c)         | **Done** (memorize)
 12  |print_hex    | (Use mesma logica de putnbr)
 13  |[rstr_capitalizer](https://github.com/faleite/42exams/blob/main/2_rank/3_level/rstr_capitalizer.c) |**Done.**
-14  |str_capitalizer |
+14  |[str_capitalizer](https://github.com/faleite/42exams/blob/main/2_rank/3_level/str_capitalizer.c) | **Done.**
 15  |tab_mult     |
 
 ### Question 4 is from Level 4
