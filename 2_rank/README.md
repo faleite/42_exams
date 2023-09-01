@@ -77,7 +77,7 @@ Nr. |Question | Obs.
 08  |hidenp       |
 09  |lcm          | (memorize)
 10  |paramsum     |
-11  |pgcd         | (memorize)
+11  |[pgcd](https://github.com/faleite/42exams/blob/main/2_rank/3_level/pgcd.c)         | **Done** (memorize)
 12  |print_hex    | (Use mesma logica de putnbr)
 13  |rstr_capitalizer |
 14  |str_capitalizer |
