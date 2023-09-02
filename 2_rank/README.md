@@ -72,7 +72,7 @@ Nr. |Question | Obs.
 03  |[expand_str](https://github.com/faleite/42exams/blob/main/2_rank/3_level/expand_str.c) | **Done.**
 04  |[ft_atoi_base](https://github.com/faleite/42exams/blob/main/2_rank/3_level/ft_atoi_base.c) | **Done** (you need remember)
 05  |[ft_list_size](https://github.com/faleite/42exams/blob/main/2_rank/3_level/ft_list_size.c) | **Done** (you need remember)
-06  |ft_range     |
+06  |[ft_range](https://github.com/faleite/42exams/blob/main/2_rank/3_level/ft_rrange.c) | **Done** (Utils: ft_abs)
 07  |ft_rrange    |
 08  |[hidenp](https://github.com/faleite/42exams/blob/main/2_rank/3_level/hidenp.c)     | **Done.**
 09  |lcm          | (memorize)
