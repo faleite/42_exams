@@ -70,7 +70,6 @@ int	*ft_range(int start, int end)
 	return (arr);
 }
 
-
 int	main(void)
 {
 	int	*tab;
