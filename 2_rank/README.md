@@ -75,7 +75,7 @@ Nr. |Question | Obs.
 06  |[ft_range](https://github.com/faleite/42exams/blob/main/2_rank/3_level/ft_range.c) | **Done** (Utils: ft_abs)
 07  |[ft_rrange](https://github.com/faleite/42exams/blob/main/2_rank/3_level/ft_rrange.c)  | **Done** (Utils: ft_abs)
 08  |[hidenp](https://github.com/faleite/42exams/blob/main/2_rank/3_level/hidenp.c)     | **Done.**
-09  |lcm          | (memorize)
+09  |[lcm](https://github.com/faleite/42exams/blob/main/2_rank/3_level/lcm.c) | **Done.** (memorize)
 10  |[paramsum](https://github.com/faleite/42exams/blob/main/2_rank/3_level/paramsum.c)     | **Done.**
 11  |[pgcd](https://github.com/faleite/42exams/blob/main/2_rank/3_level/pgcd.c)         | **Done** (memorize)
 12  |[print_hex](https://github.com/faleite/42exams/blob/main/2_rank/3_level/print_hex.c) | **Done.** (Use mesma logica de putnbr)
