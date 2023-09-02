@@ -24,15 +24,12 @@ int	ft_atoi_base(const char *str, int str_base);
 
 int	get_digit(char c)
 {
-	int	res;
-
-	res = 0;
 	if (c >= '0' && c <= '9')
-		return (res = c - '0');
+		return (c - '0');
 	else if (c >= 'A' && c <= 'F')
-		return (res = c - 55);
+		return (c - 55);
 	else if (c >= 'a' && c <= 'f')
-		return (res = c - 87);
+		return (c - 87);
 	return (0);
 }
 
