@@ -75,8 +75,8 @@ int	add_prime_sum(int n)
 	int	i;
 	int	result;
 
-	if (n == 1)
-		return (1);
+	if (n <= 1)
+		return (0);
 	i = 2;
 	result = 0;
 	while (i <= n)
