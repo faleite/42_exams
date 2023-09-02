@@ -2,84 +2,47 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-// Retorna o valor absoluto de um número
 int	ft_abs(int x)
 {
-	int	sig;
-
-	sig = -1;
 	if (x < 0)
-		return (x * sig);
+		return (-x);
 	return (x);
 }
 
-/************/
-/* Option 1 */
-/************/
-int	*ft_range(int start, int end)
+int	*ft_rrange(int start, int end)
 {
-	int	i;
-	int	len;
 	int	*arr;
+	int	len;
+	int	i;
 
 	i = 0;
-	len = ft_abs(start - end) + 1;
+	len = ft_abs(end - start) + 1;
 	arr = (int *)malloc(sizeof(int) * len);
 	while (i < len)
 	{
 		if (start < end)
 		{
-			arr[i] = start;
-			start++;
+			arr[i] = end;
+			end--;
 			i++;
 		}
 		else
 		{
-			arr[i] = start;
-			start--;
+			arr[i] = end;
+			end++;
 			i++;
 		}
 	}
 	return (arr);
 }
-
-/************/
-/* Option 2 */
-/************/
-int	*ft_range(int start, int end)
-{
-	int	i;
-	int	len;
-	int	*arr;
-
-	i = 0;
-	len = ft_abs(start - end) + 1;
-	arr = (int *)malloc(sizeof(int) * len);
-	while (start < end)
-	{
-		arr[i] = start;
-		start++;
-		i++;
-	}
-	arr[i] = start;
-	while (start > end)
-	{
-		arr[i] = start;
-		start--;
-		i++;
-	}
-	arr[i] = start;
-	return (arr);
-}
-
+/*
 int	main(void)
 {
-	int	*tab;
-	int	len = ft_abs(0 - -3) + 1;
+	int	*tab = ft_rrange(0, -3);
+	int	len = ft_abs(-3 - 0) + 1;
 
-	printf("Len: %d\n", len);
-	tab = ft_range(0, -3);
 	while (len--)
 		printf("%d ", *tab++);
 	return (0);
 }
+*/
