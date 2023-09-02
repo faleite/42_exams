@@ -1,65 +1,70 @@
 
-#include <stdlib.h>
-#include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
-#define WD_LEN 1000
 #define WD_NUM 1000
+#define WD_LEN 1000
 
-void	ft_putstr(char *str)
+void	ft_putstr(char *s)
 {
 	int	i;
 
 	i = 0;
-	while (str[i] != '\0')
-		write(1, &str[i++], 1);
+	while (s[i] != '\0')
+	{
+		write(1, &s[i], 1);
+		i++;
+	}
 }
 
-char	**ft_split(char *str)
+char	**ft_split(char *s)
 {
-	int		i;
+	char	**arr;
 	int		j;
 	int		k;
-	char	**tab;
 
-	tab = (char **)malloc(sizeof(char *) * WD_NUM);
-	i = 0;
+	arr = (char **)malloc(sizeof(char *) * WD_NUM);
+	while (*s == ' ' || *s == '\t' || *s == '\n')
+		++s;
 	j = 0;
-	while (str[i] != '\0')
+	while (*s != '\0')
 	{
-		if (str[i] > 32)
+		if (*s > 32)
 		{
+			arr[j] = (char *)malloc(sizeof(char) * WD_LEN);
 			k = 0;
-			tab[j] = (char *)malloc(sizeof(char) * WD_LEN);
-			while (str[i] > 32)
-				tab[j][k++] = str[i++];
-			tab[j][k] = '\0';
+			while (*s > 32)
+				arr[j][k++] = *s++;
+			arr[j][k++] = '\0';
 			j++;
 		}
 		else
-			i++;
+			++s;
 	}
-	tab[j] = NULL;
-	return (tab);
+	arr[j] = 0;
+	return (arr);
 }
 
-int	main(int argc, char *argv[])
+int	main(int ac, char *av[])
 {
-	int		i;
-	char	**tab;
+	char	**arr;
+	int		len;
 
-	tab = NULL;
-	i = 0;
-	if (argc == 2)
-		tab = ft_split(argv[1]);
-	while (tab[i] != '\0')
-		i++;
-	while (--i >= 0)
+	len = 0;
+	if (ac > 1)
 	{
-		ft_putstr(tab[i]);
-		if (i > 0)
-			write(1, " ", 1);
+		arr = ft_split(av[1]);
+		while (arr[len] != 0)
+			len++;
+		while (len--)
+		{
+			ft_putstr(arr[len]);
+			if (len != 0)
+				write(1, " ", 1);
+			free(arr[len]);
+		}
 	}
 	write(1, "\n", 1);
+	free(arr);
 	return (0);
 }
