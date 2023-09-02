@@ -13,6 +13,9 @@ int	ft_abs(int x)
 	return (x);
 }
 
+/************/
+/* Option 1 */
+/************/
 int	*ft_range(int start, int end)
 {
 	int	i;
@@ -38,6 +41,35 @@ int	*ft_range(int start, int end)
 	}
 	return (arr);
 }
+
+/************/
+/* Option 2 */
+/************/
+int	*ft_range(int start, int end)
+{
+	int	i;
+	int	len;
+	int	*arr;
+
+	len = ft_abs(start - end) + 1;
+	arr = (int *)malloc(sizeof(int) * len);
+	while (start < end)
+	{
+		arr[i] = start;
+		start++;
+		i++;
+	}
+	arr[i] = start;
+	while (start > end)
+	{
+		arr[i] = start;
+		start--;
+		i++;
+	}
+	arr[i] = start;
+	return (arr);
+}
+
 
 int	main(void)
 {
