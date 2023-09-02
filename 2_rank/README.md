@@ -70,7 +70,7 @@ Nr. |Question | Obs.
 01  |[add_prime_sum](https://github.com/faleite/42exams/blob/main/2_rank/3_level/add_prime_sum.c)| **Done** (utils: putnbr, atoi, is_prime, no param rt 0, <=1 rt 0)
 02  |[epur_str](https://github.com/faleite/42exams/blob/main/2_rank/3_level/epur_str.c) | **Done.**
 03  |[expand_str](https://github.com/faleite/42exams/blob/main/2_rank/3_level/expand_str.c) | **Done.**
-04  |ft_atoi_base | (you need remember)
+04  |[ft_atoi_base](https://github.com/faleite/42exams/blob/main/2_rank/3_level/ft_atoi_base.c) | **Done** (you need remember)
 05  |[ft_list_size](https://github.com/faleite/42exams/blob/main/2_rank/3_level/ft_list_size.c) | **Done** (you need remember)
 06  |ft_range     |
 07  |ft_rrange    |
