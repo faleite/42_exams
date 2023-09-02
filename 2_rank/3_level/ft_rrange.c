@@ -22,6 +22,7 @@ int	*ft_range(int start, int end)
 	int	len;
 	int	*arr;
 
+	i = 0;
 	len = ft_abs(start - end) + 1;
 	arr = (int *)malloc(sizeof(int) * len);
 	while (i < len)
@@ -51,6 +52,7 @@ int	*ft_range(int start, int end)
 	int	len;
 	int	*arr;
 
+	i = 0;
 	len = ft_abs(start - end) + 1;
 	arr = (int *)malloc(sizeof(int) * len);
 	while (start < end)
