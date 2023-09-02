@@ -5,62 +5,66 @@
 #define WD_NUM 1000
 #define WD_LEN 1000
 
-void	ft_putstr(char *str)
+void	ft_putstr(char *s)
 {
 	int	i;
 
 	i = 0;
-	while (str[i] != '\0')
-		write(1, &str[i++], 1);
+	while (s[i] != '\0')
+	{
+		write(1, &s[i], 1);
+		i++;
+	}
 }
 
-char	**ft_split(char *str)
+char	**ft_split(char *s)
 {
-	int		i;
+	char	**arr;
 	int		j;
 	int		k;
-	char	**wds;
 
-	wds = (char **)malloc(sizeof(char *) * WD_NUM);
-	i = 0;
+	arr = (char **)malloc(sizeof(char *) * WD_NUM);
+	while (*s == ' ' || *s == '\t' || *s == '\n')
+		++s;
 	j = 0;
-	while (str[i] != '\0')
+	while (*s != '\0')
 	{
-		if (str[i] > 32)
+		if (*s > 32)
 		{
+			arr[j] = (char *)malloc(sizeof(char) * WD_LEN);
 			k = 0;
-			wds[j] = (char *)malloc(sizeof(char) * WD_LEN);
-			while (str[i] > 32)
-				wds[j][k++] = str[i++];
-			wds[j++][k] = '\0';
+			while (*s > 32)
+				arr[j][k++] = *s++;
+			arr[j][k++] = '\0';
+			j++;
 		}
 		else
-			i++;
+			++s;
 	}
-	wds[j] = NULL;
-	return (wds);
+	arr[j] = 0;
+	return (arr);
 }
 
 int	main(int ac, char *av[])
 {
+	char	**arr;
 	int		i;
-	char	**wds;
 
 	i = 1;
-	wds = NULL;
 	if (ac > 1)
 	{
-		wds = ft_split(av[1]);
-		while (wds[i] != NULL)
+		arr = ft_split(av[1]);
+		while (arr[i] != 0)
 		{
-			ft_putstr(wds[i]);
+			ft_putstr(arr[i]);
 			write(1, " ", 1);
-			free(wds[i]);
+			free(arr[i]);
 			i++;
 		}
-		ft_putstr(wds[0]);
-		free(wds);
+		ft_putstr(arr[0]);
+		free(arr[0]);
 	}
 	write(1, "\n", 1);
+	free(arr);
 	return (0);
 }
