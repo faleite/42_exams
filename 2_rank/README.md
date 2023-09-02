@@ -23,18 +23,18 @@ There is no Norminette in this exam.
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |first_word| Done
-02  |fizzbuzz | Done
-03  |ft_strcpy | Done
-04  |ft_strlen | Done
-05  |ft_swap | Done
-06  |putstr | Done
-07  |repeat_alpha | Done
-08  |rev_print | Done
-09  |rot_13 | Done
-10  |rotone | Done
-11  |search_and_replace | Done
-12  |ulstr | Done
+01  |[first_word](https://github.com/faleite/42exams/blob/main/2_rank/1_level/01_first_word.c)| Done
+02  |[fizzbuzz](https://github.com/faleite/42exams/blob/main/2_rank/1_level/02_fizzbuzz.c) | Done
+03  |[ft_strcpy](https://github.com/faleite/42exams/blob/main/2_rank/1_level/03_strcpy.c) | Done
+04  |[ft_strlen](https://github.com/faleite/42exams/blob/main/2_rank/1_level/04_ft_strlen.c) | Done
+05  |[ft_swap](https://github.com/faleite/42exams/blob/main/2_rank/1_level/05_ft_swap.c) | Done
+06  |[putstr](https://github.com/faleite/42exams/blob/main/2_rank/1_level/06_ft_putstr.c) | Done
+07  |[repeat_alpha](https://github.com/faleite/42exams/blob/main/2_rank/1_level/07_repeat_alpha.c) | Done
+08  |[rev_print](https://github.com/faleite/42exams/blob/main/2_rank/1_level/08_rev_print.c) | Done
+09  |[rot_13](https://github.com/faleite/42exams/blob/main/2_rank/1_level/09_rot_13.c) | Done
+10  |[rotone](https://github.com/faleite/42exams/blob/main/2_rank/1_level/10_rotone.c) | Done
+11  |[search_and_replace](https://github.com/faleite/42exams/blob/main/2_rank/1_level/11_search_and_replace.c) | Done
+12  |[ulstr](https://github.com/faleite/42exams/blob/main/2_rank/1_level/12_ulstr.c) | Done
 
 ### Question 2 is from Level 2
 :question: Any of the 20 Functions/Programs Below:
