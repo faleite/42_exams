@@ -93,7 +93,7 @@ Nr. |Question | Obs.
 03  |ft_itoa | (also return 0, -2147483648)
 04  |ft_list_foreach | (memorize)
 05  |ft_list_remove_if  (memorize, use free)
-06  |ft_split |
+06  |[ft_split](https://github.com/faleite/42exams/blob/main/2_rank/4_level/ft_split.c) | **Done**
 07  |rev_wstr | (utils: putstr, split)
 08  |rostring | (utils: putstr, split)
 09  |sort_int_tab | (memorize)
