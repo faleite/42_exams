@@ -96,7 +96,7 @@ Nr. |Question | Obs.
 06  |[ft_split](https://github.com/faleite/42exams/blob/main/2_rank/4_level/ft_split.c) | **Done**
 07  |[rev_wstr](https://github.com/faleite/42exams/blob/main/2_rank/4_level/rev_wstr.c) | **Done.** (utils: putstr, split)
 08  |[rostring](https://github.com/faleite/42exams/blob/main/2_rank/4_level/rostring.c) | **Done.** (utils: putstr, split)
-09  |sort_int_tab | (memorize)
+09  |[sort_int_tab](https://github.com/faleite/42exams/blob/main/2_rank/4_level/sort_int_tab.c) | **Done** 
 10  |sort_list | (memorize)
 
 ### Stats
