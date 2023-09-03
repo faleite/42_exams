@@ -88,16 +88,16 @@ Nr. |Question | Obs.
 
 Nr. |Question | Obs.
 ----|---------|-----
-01  |flood_fill | (memorize)
+01  |[flood_fill](https://github.com/faleite/42exams/blob/main/2_rank/4_level/flood_fill.c) | (memorize)
 02  |[fprime](https://github.com/faleite/42exams/blob/main/2_rank/4_level/fprime.c) | **Done**
 03  |[ft_itoa](https://github.com/faleite/42exams/blob/main/2_rank/4_level/ft_itoa.c) | **Done.** (Case return "0\0", "-2147483648\0")
-04  |ft_list_foreach | (memorize)
-05  |ft_list_remove_if | (memorize, use free)
+04  |[ft_list_foreach](https://github.com/faleite/42exams/blob/main/2_rank/4_level/ft_list_foreach.c) | (memorize)
+05  |[ft_list_remove_if](https://github.com/faleite/42exams/blob/main/2_rank/4_level/ft_list_remove_if.c) | (memorize, use free)
 06  |[ft_split](https://github.com/faleite/42exams/blob/main/2_rank/4_level/ft_split.c) | **Done**
 07  |[rev_wstr](https://github.com/faleite/42exams/blob/main/2_rank/4_level/rev_wstr.c) | **Done.** (utils: putstr, split)
 08  |[rostring](https://github.com/faleite/42exams/blob/main/2_rank/4_level/rostring.c) | **Done.** (utils: putstr, split)
 09  |[sort_int_tab](https://github.com/faleite/42exams/blob/main/2_rank/4_level/sort_int_tab.c) | **Done** 
-10  |sort_list | (memorize)
+10  |[sort_list](https://github.com/faleite/42exams/blob/main/2_rank/4_level/sort_list.c) | (memorize)
 
 ### Stats
 :swimmer: Total Pool of 57 Functions/Programs.
