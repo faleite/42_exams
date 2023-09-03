@@ -1,3 +1,20 @@
+/*
+Assignment name  : sort_int_tab
+Expected files   : sort_int_tab.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Write the following function:
+
+void sort_int_tab(int *tab, unsigned int size);
+
+It must sort (in-place) the 'tab' int array, that contains exactly 'size'
+members, in ascending order.
+
+Doubles must be preserved.
+
+Input is always coherent.
+*/
 
 #include <stdio.h>
 
@@ -19,17 +36,18 @@ void	sort_int_tab(int *tab, unsigned int size)
 		else
 			i++;
 	}
+
 }
 
 int	main(void)
 {
-	int				i;
-	unsigned int	size;
+	int	i;
+	int	size = 6;
+	int	tab[] = {3, 3, 1, 4, 0, 2};
 
-	int	tab[] = {2, 5, 1, 4, 3};
-	size = 5;
 	i = 0;
 	sort_int_tab(tab, size);
 	while (i < size)
 		printf("%d ", tab[i++]);
+	return (0);
 }
