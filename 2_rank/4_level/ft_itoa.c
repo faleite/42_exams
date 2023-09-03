@@ -38,7 +38,7 @@ char	*ft_itoa(int nbr)
 	char	*str;
 
 	if (nbr == 0)
-		return ("0");
+		return ("0\0");
 	if (nbr == -2147483648)
 		return ("-2147483648\0");
 	len = len_nbr(nbr);
