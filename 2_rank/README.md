@@ -89,7 +89,7 @@ Nr. |Question | Obs.
 Nr. |Question | Obs.
 ----|---------|-----
 01  |flood_fill | (memorize)
-02  |fprime |
+02  |[fprime](https://github.com/faleite/42exams/blob/main/2_rank/4_level/fprime.c) | **Done**
 03  |ft_itoa | (also return 0, -2147483648)
 04  |ft_list_foreach | (memorize)
 05  |ft_list_remove_if  (memorize, use free)
