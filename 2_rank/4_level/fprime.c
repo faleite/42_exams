@@ -2,30 +2,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void	fprime(int nbr)
+void	fprime(int n)
 {
 	int	i;
 
-	if (nbr == 1)
+	if (n == 1)
 	{
 		printf("1");
 		return ;
 	}
 	i = 2;
-	while (nbr > 1)
+	while (n >= i)
 	{
-		if (nbr % i == 0)
+		if (n % i == 0)
 		{
-			nbr /= i;
 			printf("%d", i);
-			if (nbr > 1)
+			if (n != i)
 				printf("*");
-			i = 2;
+			n /= i;
+			i--;
 		}
-		else
-			i++;
+		i++;
 	}
 }
+
 int	main(int ac, char *av[])
 {
 	if (ac == 2)
