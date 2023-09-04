@@ -97,7 +97,7 @@ Nr. |Question | Obs.
 07  |[rev_wstr](https://github.com/faleite/42exams/blob/main/2_rank/4_level/rev_wstr.c) | **Done.** (utils: putstr, split)
 08  |[rostring](https://github.com/faleite/42exams/blob/main/2_rank/4_level/rostring.c) | **Done.** (utils: putstr, split)
 09  |[sort_int_tab](https://github.com/faleite/42exams/blob/main/2_rank/4_level/sort_int_tab.c) | **Done** 
-10  |[sort_list](https://github.com/faleite/42exams/blob/main/2_rank/4_level/sort_list.c) | (memorize)
+10  |[sort_list](https://github.com/faleite/42exams/blob/main/2_rank/4_level/sort_list.c) | **Done** (memorize)
 
 ### Stats
 :swimmer: Total Pool of 57 Functions/Programs.
