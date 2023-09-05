@@ -57,7 +57,7 @@ Nr. |Question | Obs.
 14  |[max](https://github.com/faleite/42exams/blob/main/2_rank/2_level/max.c)            | **Done**
 15  |[print_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/print_bits.c)     | **Done.** (\>> [move bit] & 1 [take bit])
 16  |[reverse_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/reverse_bits.c)   | **Done** *NoGrademe*
-17  |[snake_to_camel](https://github.com/faleite/42exams/blob/main/2_rank/2_level/snake_to_camel.c) | **Done**
+17  |[snake_to_camel](https://github.com/faleite/42exams/blob/main/2_rank/2_level/snake_to_camel.c) | **Done.**
 18  |[swap_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/swap_bits.c)      | **Done.** (\>> 4 \| \<< 4)
 19  |[union](https://github.com/faleite/42exams/blob/main/2_rank/2_level/union.c)          | **Done.** (you need ft cheek_double how aux)
 20  |[wdmatch](https://github.com/faleite/42exams/blob/main/2_rank/2_level/wdmatch.c)        | **Done** *NoGrademe*
