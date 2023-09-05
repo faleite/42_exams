@@ -45,7 +45,7 @@ Nr. |Question | Obs.
 02  |[camel_to_snake](https://github.com/faleite/42exams/blob/main/2_rank/2_level/camel_to_snake.c) | **Done.**
 03  |[do_op](https://github.com/faleite/42exams/blob/main/2_rank/2_level/do_op.c)          | **Done.**
 04  |[ft_atoi](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_atoi.c)        | **Done.** (se index 1 != num: rt 0, cond. while p/ null e nums)
-05  |[ft_strcmp](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strcmp.c)      | **Done** (look for remember)
+05  |[ft_strcmp](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strcmp.c)      | **Done.** (look for remember)
 06  |[ft_strcspn](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strcspn.c)     | **Done** (look for remember)
 07  |[ft_strdup](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strdup.c)      | **Done.**
 08  |[ft_strpbrk](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strpbrk.c)     | **Done.** *NoGrademe*
