@@ -49,7 +49,7 @@ Nr. |Question | Obs.
 06  |[ft_strcspn](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strcspn.c)     | **Done** (look for remember)
 07  |[ft_strdup](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strdup.c)      | **Done.**
 08  |[ft_strpbrk](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strpbrk.c)     | **Done.** *NoGrademe*
-09  |[ft_strrev](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strrev.c)      | **Done** *NoGrademe* (cada vez troca duas char (while (len > i))
+09  |[ft_strrev](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strrev.c)      | **Done.** *NoGrademe* (cada vez troca duas char (while (len > i))
 10  |[ft_strspn](https://github.com/faleite/42exams/blob/main/2_rank/2_level/ft_strspn.c)      | **Done** *NoGrademe* (use ft strchr how aux)
 11  |[inter](https://github.com/faleite/42exams/blob/main/2_rank/2_level/inter.c)          | **Done** (utils: check_double)
 12  |[is_power_of_2](https://github.com/faleite/42exams/blob/main/2_rank/2_level/is_power_of_2.c)  | **Done** (n == 0 rt 0, n == 1 rt 1)
