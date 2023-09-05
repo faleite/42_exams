@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * @brief The strcspn() function calculates the length of the initial
+ * segment of s which consists entirely of bytes not in reject.
+ * @return The strcspn() function returns the number of bytes in the initial
+ * segment of s which are not in the string reject.
+*/
 size_t	ft_strcspn(const char *s, const char *reject)
 {
 	int	i;
