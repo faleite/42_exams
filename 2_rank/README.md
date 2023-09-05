@@ -55,7 +55,7 @@ Nr. |Question | Obs.
 12  |[is_power_of_2](https://github.com/faleite/42exams/blob/main/2_rank/2_level/is_power_of_2.c)  | **Done** (n == 0 rt 0, n == 1 rt 1)
 13  |[last_word](https://github.com/faleite/42exams/blob/main/2_rank/2_level/last_word.c)      | **Done.** (remember index begin in 0 (len +/- 1))
 14  |[max](https://github.com/faleite/42exams/blob/main/2_rank/2_level/max.c)            | **Done**
-15  |[print_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/print_bits.c)     | **Done.** (\bits >> n & 1) + '0'
+15  |[print_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/print_bits.c)     | **Done.** (bits \>> n & 1) + '0'
 16  |[reverse_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/reverse_bits.c)   | **Done** *NoGrademe*
 17  |[snake_to_camel](https://github.com/faleite/42exams/blob/main/2_rank/2_level/snake_to_camel.c) | **Done.**
 18  |[swap_bits](https://github.com/faleite/42exams/blob/main/2_rank/2_level/swap_bits.c)      | **Done.** (\>> 4 \| \<< 4)
