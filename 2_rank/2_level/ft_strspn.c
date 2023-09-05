@@ -26,6 +26,12 @@ char	*ft_strchr(const char *s, char c)
 	return (0);
 }
 
+/** FT_STRSPN
+ * @brief The strspn() function calculates the length (in bytes) of the initial
+ * segment of s which consists entirely of bytes in accept.
+ * @return returns the number of bytes in the initial segment of s which consist
+ * only of bytes from accept.
+*/
 size_t	ft_strspn(const char *s, const char *accept)
 {
 	int	i;
