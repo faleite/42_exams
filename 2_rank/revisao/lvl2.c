@@ -13,7 +13,7 @@
  * segment of s which are not in the string reject.
 */
 
-/** FT_STRPBRK
+/** FT_STRPBRK  //Use Cast ((char *)s1)
  * @brief The strpbrk() function locates the first occurrence in the string s
  * of any of the bytes in the string accept.
  * @return The strpbrk() function returns a pointer to the byte in s
