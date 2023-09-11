@@ -9,7 +9,7 @@
 ```
 42 School exam.
 
-### [Rank 02](https://github.com/faleite/42exams/tree/main/2_rank) :100: :white_check_mark:
+### [Rank 02](https://github.com/faleite/42exams/tree/main/2_rank) :100:
 
 ---
 ### Pratice Tool
