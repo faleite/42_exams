@@ -7,7 +7,7 @@
                      ╚═╝╚══════╝
                      	Rank
 ```
-42 School exam.
+### 42 School exam.
 
 ### [Rank 02](https://github.com/faleite/42exams/tree/main/2_rank) :100:
 
