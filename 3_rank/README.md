@@ -16,5 +16,5 @@
 
 Nr. |Question | Obs.
 ----|---------|:-----:
-01  |[ft_printf]()|
-02  |[get_next_line]() |
+01  |[ft_printf](https://github.com/faleite/42_exams/tree/main/3_rank/ft_printf)|
+02  |[get_next_line](https://github.com/faleite/42_exams/tree/main/3_rank/get_next_line) |
