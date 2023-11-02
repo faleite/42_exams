@@ -6,59 +6,54 @@
 /*   By: faaraujo <faaraujo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 20:49:30 by faaraujo          #+#    #+#             */
-/*   Updated: 2023/10/31 21:42:35 by faaraujo         ###   ########.fr       */
+/*   Updated: 2023/11/02 17:43:48 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// includes
 #include <unistd.h>
 #include <stdarg.h>
 
-// put_str
-void	put_str(char *str, int *len)
+void	put_string(char *string, int *length)
 {
-	if (!str)
-		str = "(null)";
-	while (*str)
-		*len += write(1, str++, 1);
+	if (!string)
+		string = "(null)";
+	while (*string)
+		*length += write(1, string++, 1);
 }
 
-// put_digit
-void	put_digit(long long int nbr, int base, int *len)
+void	put_digit(long long int number, int base, int *length)
 {
-	char	*hd;
+	char	*hexadecimal = "0123456789abcdef";
 
-	hd = "0123456789abcdef";
-	if (nbr < 0)
+	if (number < 0)
 	{
-		nbr *= -1;
-		*len += write(1, "-", 1);
+		number *= -1;
+		*length += write(1, "-", 1);
 	}
-	if (nbr >= base)
-		put_digit((nbr / base), base, len);
-	*len += write(1, &hd[nbr % base], 1);
+	if (number >= base)
+		put_digit((number / base), base, length);
+	*length += write(1, &hexadecimal[number % base], 1);
 }
 
-// ft_print
-int	ft_printf(const char *fmt, ...)
+int ft_printf(const char *fmt, ...)
 {
 	int	len;
 
 	len = 0;
-	va_list	ptr;
-	va_start(ptr, fmt); 
-	while (*fmt)
+	va_list ptr;
+	va_start(ptr, fmt);
+	while(*fmt)
 	{
 		if ((*fmt == '%') && ((*(fmt + 1) == 's') || (*(fmt + 1) == 'd') ||
-		(*(fmt + 1) == 'x')))
+			(*(fmt + 1) == 'x')))
 		{
 			fmt++;
 			if (*fmt == 's')
-				put_str(va_arg(ptr, char *), &len);
+				put_string(va_arg(ptr, char *), &len);
 			else if (*fmt == 'd')
 				put_digit((long long int)va_arg(ptr, int), 10, &len);
 			else if (*fmt == 'x')
-				put_digit((long long int)va_arg(ptr, unsigned int), 16, &len);
+				put_digit((long long int)va_arg(ptr, unsigned int), 16, &len);		
 		}
 		else
 			len += write(1, fmt, 1);
