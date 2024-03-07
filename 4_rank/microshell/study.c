@@ -5,6 +5,7 @@
 
 
 // Função (cd) para alterar o diretório atual
+// cd deve estar na posicao argv[1]
 
 
 // Função (exec) para executar um comando
@@ -18,10 +19,10 @@
         // Se um pipe está presente e o redirecionamento ou fechamento do pipe falha, retorna um erro
         // Executa o comando
         // Se a execução falhar, retorna um erro
+    
     // No processo pai, aguarda o processo filho terminar
     // Se um pipe está presente e o redirecionamento ou fechamento do pipe falha, retorna um erro
     // Retorna o status de saída do processo filho
-
 
 // Main
 // Mova o ponteiro para frente
