@@ -11,7 +11,7 @@
 
 ### [Rank 02](https://github.com/faleite/42exams/tree/main/2_rank) :100:
 ### [Rank 03](https://github.com/faleite/42exams/tree/main/3_rank) :100:
-### [Rank 04](https://github.com/faleite/42exams/tree/main/4_rank) ::
+### [Rank 04](https://github.com/faleite/42exams/tree/main/4_rank) :100:
 
 ---
 ### Pratice Tool
