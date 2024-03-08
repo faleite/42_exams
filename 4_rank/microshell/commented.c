@@ -1,6 +1,5 @@
 #include <unistd.h>
 #include <sys/types.h>
-#include <sys/wait.h>
 #include <string.h>
 
 // Função para escrever uma mensagem de erro no erro padrão (descritor de arquivo 2)
