@@ -5,11 +5,11 @@
 
 - There is no Norminette in this exam.
 
-### Links
+<!-- ### Links
 - [rossi](https://github.com/pasqualerossi/42-School-Exam-Rank-04)
 - [1337](https://github.com/48d31kh413k/1337-exam_rank_04-42-)
 
-<!-- # Exam Questions
+# Exam Questions
 
 ### 1 Exam question
 :question: Either get_next_line or ft_printf:
