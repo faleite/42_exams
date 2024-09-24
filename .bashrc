@@ -1,0 +1,5 @@
+PS1='\e[35m[\e[92m\u\e[35m]\e[0m:\e[34m\w\e[0m$ '
+alias comp='c++ -Wall -Wextra -Werror -std=c++98 -g main.cpp'
+alias run='c++ -Wall -Wextra -Werror -std=c++98 -g main.cpp && ./a.out'
+alias rma='rm ./a.out'
+alias rua='./a.out'
