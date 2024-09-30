@@ -12,12 +12,8 @@
 ### [Rank 02](https://github.com/faleite/42exams/tree/main/2_rank) :100:
 ### [Rank 03](https://github.com/faleite/42exams/tree/main/3_rank) :100:
 ### [Rank 04](https://github.com/faleite/42exams/tree/main/4_rank) :100:
-### [Rank 05](https://github.com/faleite/42exams/tree/main/5_rank)
+### [Rank 05](https://github.com/faleite/42exams/tree/main/5_rank) :100:
 
 ---
 ### Pratice Tool
 - [Exam Pratice Tool](https://github.com/JCluzet/42_EXAM)
-
-### General links
-- [42 Exams](https://github.com/pasqualerossi/42-Exams)
-- [Guia 42 School](https://github.com/pasqualerossi)
