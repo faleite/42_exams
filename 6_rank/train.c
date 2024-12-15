@@ -15,8 +15,8 @@ int ids[5000];
 char *arr_str[5000];
 char *fatal = "Fatal error";
 char *message = NULL;
-char send_buf[1000]; 
-char recv_buf[1000]; 
+char send_buf[1000];
+char recv_buf[1000];
 fd_set actual_set, write_set, read_set;
 
 int extract_message(char **buf, char **msg)
@@ -71,8 +71,8 @@ void err(char *str)
 	write(2, str, strlen(str));
 	write(2, "\n", 1);
 	if (sockfd >= 0)
-		close (sockfd);
-	exit (1);
+		close(sockfd);
+	exit(1);
 }
 
 void send_msg(int fd)
@@ -91,7 +91,7 @@ void send_msg(int fd)
 int main(int argc, char *argv[]) 
 {
 	int id, connfd, len;
-	struct sockaddr_in servaddr;
+	struct sockaddr_in servaddr; 
 
 	if (argc != 2)
 		err("Wrong number of arguments");
@@ -115,37 +115,35 @@ int main(int argc, char *argv[])
 	if (listen(sockfd, 10) != 0)
 		err(fatal);
 	
-	// Prepara para monitorar o socket de escuta
 	max_fd = sockfd;
 	FD_ZERO(&actual_set);
 	FD_SET(sockfd, &actual_set);
 	id = 0;
 
-	// loop
 	while (1)
 	{
-		// structs fd_set
+		// variavies set
 		read_set = write_set = actual_set;
 		if (select(max_fd + 1, &read_set, &write_set, NULL, NULL) <= 0)
-			continue;
+			continue ;
 
-		// Leitura
 		if (FD_ISSET(sockfd, &read_set))
 		{
-			connfd = accept(sockfd, NULL, NULL);
+			connfd = accept(sockfd, NULL, NULL); /////// sockfd
 			if (connfd <= 0)
 				err(fatal);
-
+			
+			// variaveis
 			arr_str[connfd] = NULL;
 			ids[connfd] = id++;
 			FD_SET(connfd, &actual_set);
 
 			if (connfd > max_fd)
 				max_fd = connfd;
-			
+
 			sprintf(send_buf, "server: client %d just arrived\n", ids[connfd]);
 			send_msg(connfd);
-			continue ;
+			continue;
 		}
 
 		// loop for
@@ -172,6 +170,7 @@ int main(int argc, char *argv[])
 					arr_str[fd] = str_join(arr_str[fd], recv_buf);
 					message = NULL;
 
+					// loop
 					while (extract_message(&arr_str[fd], &message))
 					{
 						sprintf(send_buf, "client %d: ", ids[fd]);
@@ -181,9 +180,8 @@ int main(int argc, char *argv[])
 					}
 				}
 			}
-		}
-		
-	}
 
+		}
+	}
 	return (0);
 }
